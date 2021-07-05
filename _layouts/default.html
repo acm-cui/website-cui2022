@@ -1,0 +1,27 @@
+{%- assign cache = site.time | date: '%s%N' -%}
+<html lang="{{ site.lang }}" class="h-100">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		{%- include header_css.html -%}
+		{%- include header_javascript.html -%}
+		<title>{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name	 | replace: "!!conference.year!!", site.conference.year	 | replace: "!!conference.location!!", site.conference.location	 | replace: "!!conference.dates!!", site.conference.dates }} - {{ site.title }}</title>
+		{%- include header_social.html -%}
+	</head>
+	<body class="my-0 mx-auto p-0">
+		{% if false %}
+		<header class="w-100">
+			<div class="w-100 h-100 prefill"></div>
+			<a href="{{ "/" | relative_url }}" class="d-block logo" title="Go to the {{ site.conference.full_name }} {{ site.conference.year }} homepage" alt="{{ site.conference.short_name }} {{ site.conference.year }} will take place in	 {{ site.conference.location }} from {{ site.conference.dates }}"><h1 class="sr-only">{{ site.conference.full_name }}</h1></a>
+			{%- include navbar_menu.html -%}
+		</header>
+		<section class="container pb-0 pt-3">
+			{{- content -}}
+		</section>
+		<footer class="container small pb-3 text-muted">
+			{%- include footer.html -%}
+		</footer>
+		{% endif %}
+	</body>
+</html>

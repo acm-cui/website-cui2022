@@ -1,0 +1,85 @@
+
+$body-max-width:                      2000px;
+
+$transition-timing-function:          ease-in-out;
+$transition-duration:                 .5s;
+
+$nav-height:                          46px;
+$nav-md-height:                       56px;
+
+$navpopup-toggler-h:                  3rem;
+$navpopup-toggler-w:                  3rem;
+$navpopup-toggler-t:                  1rem;
+$navpopup-toggler-r:                  1rem;
+
+$homepage-banner-w:                   300px;
+$homepage-sponsor-w:                  140px;
+
+$header-bg-imgs: (
+  xs: url(../img/masthead-bg-xs.png),
+  sm: url(../img/masthead-bg-sm.png),
+  md: url(../img/masthead-bg-md.png),
+  lg: url(../img/masthead-bg-lg.png),
+  xl: url(../img/masthead-bg-xl.png)
+);
+
+$header-fg-imgs: (
+  xs: url(../img/masthead-fg-xs.png?v=3),
+  sm: url(../img/masthead-fg-sm.png?v=3),
+  md: url(../img/masthead-fg-md.png?v=3),
+  lg: url(../img/masthead-fg-lg.png?v=3),
+  xl: url(../img/masthead-fg-xl.png?v=3)
+);
+
+$header-logo-ws: (
+  xs: 321px,
+  sm: 398px,
+  md: 490px,
+  lg: 587px,
+  xl: 671px
+);
+$header-logo-hs: (
+  xs: 230px,
+  sm: 277px,
+  md: 350px,
+  lg: 420px,
+  xl: 480px
+);
+
+$main-mt: (
+  xs: 107.5px,
+  sm: 130px,
+  md: 168px,
+  lg: 203px,
+  xl: 233px
+);
+
+$h2-font-size:                        1.6rem;
+
+$h3-font-size:                        1.2rem;
+$h3-p:                                $spacer/2 0;
+
+$icon-email-w:                        20px;
+$icon-email-h:                        15px;
+$icon-email-o:                        .8;
+
+$prg-icon-large-w:                    $icon-email-w;
+
+$prg-icon-timing-w:                   16px;
+$prg-icon-timing-h:                   20px;
+$prg-icon-aaai-w:                     24px;
+$prg-icon-aaai-h:                     24px;
+$prg-icon-acmdl-w:                    $prg-icon-aaai-w;
+$prg-icon-acmdl-h:                    $prg-icon-aaai-h;
+$prg-icon-sagepub-w:                  $prg-icon-aaai-w;
+$prg-icon-sagepub-h:                  $prg-icon-aaai-h;
+$prg-icon-springerlink-w:             $prg-icon-aaai-w;
+$prg-icon-springerlink-h:             $prg-icon-aaai-h;
+$prg-icon-info-w:                     $prg-icon-aaai-w;
+$prg-icon-info-h:                     $prg-icon-aaai-h;
+$prg-icon-link-w:                     18px;
+$prg-icon-link-h:                     18px;
+$prg-icon-cal-w:                      $prg-icon-link-w;
+$prg-icon-cal-h:                      $prg-icon-link-h;
+$prg-icon-info-sm-w:                  $prg-icon-link-w;
+$prg-icon-info-sm-h:                  $prg-icon-link-h;

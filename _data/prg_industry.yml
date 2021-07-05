@@ -1,0 +1,33 @@
+
+ -  name: Michelle Zhou
+    from: Juji
+    image: /assets/img/industry-michelle-zhou.png
+    biography: Dr. Michelle Zhou is a Co-founder and CEO of Juji, Inc., an Artificial Intelligence company that powers Cognitive Artificial Intelligence (AI) Assistants in the form of chatbots. She is an expert in the field of Human-Centered AI, an interdisciplinary area that intersects AI and Human-Computer Interaction (HCI). Zhou has authored more than 100 scientific publications and 45 patent applications on subjects including conversational AI, personality analytics, and interactive visual analytics of big data. Prior to founding Juji, she spent 15 years at IBM Research and the Watson Group, where she managed the research and development of Human-Centered AI technologies and solutions, including IBM Watson Personality Insights.<br><br>Zhou serves as Editor-in-Chief of ACM Transactions on Interactive Intelligent Systems (TiiS) and an Associate Editor of ACM Transactions on Intelligent Systems and Technology (TIST), and was formerly the Steering Committee Chair for the ACM International Conference Series on Intelligent User Interfaces. She is an ACM Distinguished Member and received a Ph.D. in Computer Science from Columbia University.
+    website: https://juji.io/
+    
+ -  name: Minsuk Chang
+    from: Naver AI
+    image: /assets/img/industry-minsuk-chang.png
+    biography: I am a research scientist at NAVER AI Lab, where I explore novel computational interaction techniques powered by AI technologies. I’m also a technical leader at NAVER Clova, where I lead a team of engineers for building and evaluating AI powered systems with users in the loop. ​My current research interests are 1) modeling conversational interactions, 2) making massive scale language models usable and useful, and 3) simulation-based models of users and interfaces. 
+    website: http://minsukchang.com/
+
+ -  name: Cathy Pearl
+    from: Google
+    image: /assets/img/industry-cathy-pearl.jpg
+    biography: Cathy Pearl works at Google as a design manager on Google Assistant, and is the author of the O'Reilly book, "Designing Voice User Interfaces". She's been creating Voice User Interfaces (VUIs) for over 20 years and is passionate about helping everyone make the best conversational experiences possible. Previously, Cathy was VP of User Experience at Sensely, whose virtual nurse avatar helps people stay healthy.	She has worked on everything from programming NASA helicopter pilot simulators to designing a conversational iPad app in which Esquire magazine's style columnist tells users what they should wear on a first date.	She has an MS in Computer Science from Indiana University and a BS in Cognitive Science from UC San Diego.
+    website: https://www.cathypearl.com/
+
+ -  name: Cameron Taylor
+    from: boost.ai
+    image: /assets/img/industry-cameron-taylor.jpg
+    biography: Cameron Taylor wrote a PhD at St John's College, Cambridge as a Gates Scholar in Linguistics. He set up UX Research operations at boost.ai, a Scandinavian software company that specializes in conversational artificial intelligence providing solutions to Scandinavian banking, telecoms, retail, transportation, insurance companies and government services. He runs studies looking at aspects of human-chatbot interaction, such as the impact of design decisions on end user trust, conversation repair practices, and how to design virtual agents for diverse end user groups. 
+
+ -  name: Grace Hughes
+    from: Fjord/Accenture Interactive
+    image: /assets/img/industry-grace-hughes.png
+    biography: Grace is  Conversational Lead for Europe for Fjord/Accenture Interactive. This new role is focused on establishing and expanding the craft of conversational design for our teams in Europe. Before that, she was Content Design Lead at the Dock, Accenture's innovation hub in Dublin. She’s passionate about a human-centred approach to language, and the role of content and conversation at the heart of the design process. Grace has a background in the Humanities, journalism, copywriting, and UX Design.
+    
+ -  name: Karol Stryja
+    from: '#VoiceLunch'
+    image: /assets/img/industry-karol-stryja.jpeg
+    biography: 'Some say that he was born with a microphone, others that he was born with a smart speaker in his hand. A godfather of many Polish podcasts. #Voice evangelist and #voice consultant, owner of The Podcast Makers studio, co-founder of the #VoiceLunch movement. One of the 68 Top Leaders in Voice AI for 2020 list published by voicebot.ai.'

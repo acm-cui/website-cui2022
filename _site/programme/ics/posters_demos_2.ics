@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//porcheron.uk//Martin Porcheron
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210705T161600Z
+UID:20210728T135000Z@2021.conversationaluserinterfaces.org
+DTSTART:20210728T135000Z
+DTEND:20210728T142000Z
+SUMMARY:CUI 2021: Posters and Demos II
+DESCRIPTION:Chaired byHeloisa Candello\n\nPlease see http://localhost:4000/programme/link/posters_demos_2 for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
+LOCATION:Virtual Event
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Posters and Demos II
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

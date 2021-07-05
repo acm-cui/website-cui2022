@@ -1,0 +1,186 @@
+- id: welcome
+  type: Plenary
+  title: Welcome to CUI 2021
+  location: Virtual Event
+  presenters: Stephan Schlögl (CUI 2021 General Chair)<br>Martin Porcheron and Leigh Clark (CUI 2021 Programme Chairs)
+  start_time: 2021-07-27T12:45:00.000Z
+  end_time: 2021-07-27T13:00:00.000Z
+
+- id: chatbots
+  type: Talks
+  title: Chatbots
+  location: Virtual Event
+  start_time: 2021-07-27T13:00:00.000Z
+  end_time: 2021-07-27T13:50:00.000Z
+
+- id: posters_demos_1
+  type: Interactivity
+  title: Posters and Demos I
+  location: Virtual Event
+  chairs: Philip R Doyle
+  start_time: 2021-07-27T13:50:00.000Z
+  end_time: 2021-07-27T14:20:00.000Z
+
+- id: break_1
+  type: Break
+  description: 20 minute break
+  start_time: 2021-07-27T14:20:00.000Z
+  end_time: 2021-07-27T14:40:00.000Z
+
+- id: cui_4_good
+  type: Talks
+  title: CUI-4-Good
+  location: Virtual Event
+  start_time: 2021-07-27T14:40:00.000Z
+  end_time: 2021-07-27T15:30:00.000Z
+
+- id: break_2
+  type: Break
+  description: 30 minute break
+  start_time: 2021-07-27T15:30:00.000Z
+  end_time: 2021-07-27T16:00:00.000Z
+
+- id: keynote
+  type: Keynote
+  title: Opening keynote
+  location: Virtual Event
+  start_time: 2021-07-27T16:00:00.000Z
+  end_time: 2021-07-27T16:45:00.000Z
+
+- id: break_3
+  type: Break
+  description: 45 minute break
+  start_time: 2021-07-27T16:45:00.000Z
+  end_time: 2021-07-27T17:30:00.000Z
+
+- id: social_1
+  type: Social
+  title: The Big CUI Quiz
+  location: Virtual Event
+  presenters: 'Quizmasters: <em>Daniel Rough</em> and <em>Justin Edwards</em>'
+  start_time: 2021-07-27T17:30:00.000Z
+  end_time: 2021-07-27T18:30:00.000Z
+  
+- id: break_eod_1
+  type: EOD
+  description: The conference resumes later today
+  start_time: 2021-07-27T18:30:00.000Z
+  end_time: 2021-07-28T13:00:00.000Z
+
+
+
+- id: generational
+  type: Talks
+  title: Generational technology
+  location: Virtual Event
+  start_time: 2021-07-28T13:00:00.000Z
+  end_time: 2021-07-28T13:50:00.000Z
+
+- id: posters_demos_2
+  type: Interactivity
+  title: Posters and Demos II
+  chairs: Heloisa Candello
+  location: Virtual Event
+  start_time: 2021-07-28T13:50:00.000Z
+  end_time: 2021-07-28T14:20:00.000Z
+
+- id: break_4
+  type: Break
+  description: 20 minute break
+  start_time: 2021-07-28T14:20:00.000Z
+  end_time: 2021-07-28T14:40:00.000Z
+
+- id: multimodality
+  type: Talks
+  title: Multimodality
+  location: Virtual Event
+  start_time: 2021-07-28T14:40:00.000Z
+  end_time: 2021-07-28T15:30:00.000Z
+  
+- id: break_5
+  type: Break
+  description: 30 minute break
+  start_time: 2021-07-28T15:50:00.000Z
+  end_time: 2021-07-28T16:00:00.000Z
+
+- id: humanness
+  type: Talks
+  title: Humanness
+  location: Virtual Event
+  start_time: 2021-07-28T16:00:00.000Z
+  end_time: 2021-07-28T16:50:00.000Z
+  
+- id: break_6
+  type: Break
+  description: 40 minute break
+  start_time: 2021-07-28T16:50:00.000Z
+  end_time: 2021-07-28T17:30:00.000Z
+
+- id: social_2
+  type: Social
+  title: Who Wants to Be a CUIllionaire
+  location: Virtual Event
+  presenters: Brought to you by <em>Justin Edwards</em> and <em>Allison Perrone</em> from the <a href="https://www.batcamp.org/robots/" alt="Robots on Typewriters podcast website">Robots on Typewriters</a> podcast
+  start_time: 2021-07-28T17:30:00.000Z
+  end_time: 2021-07-28T18:30:00.000Z
+  
+- id: break_eod_3
+  type: EOD
+  description: The conference resumes later today
+  start_time: 2021-07-28T17:30:00.000Z
+  end_time: 2021-07-29T13:00:00.000Z
+
+
+
+- id: synthesis_talk
+  type: Talks
+  title: Synthesis, talk, and directionality
+  location: Virtual Event
+  start_time: 2021-07-29T13:00:00.000Z
+  end_time: 2021-07-29T13:50:00.000Z
+
+- id: posters_demos_3
+  type: Interactivity
+  title: Posters and Demos III
+  chairs: Christine Murad
+  location: Virtual Event
+  start_time: 2021-07-29T13:50:00.000Z
+  end_time: 2021-07-29T14:20:00.000Z
+
+- id: break_7
+  type: Break
+  description: 20 minute break
+  start_time: 2021-07-29T14:20:00.000Z
+  end_time: 2021-07-29T14:40:00.000Z
+
+
+- id: industry
+  type: Roundtable
+  title: Industry panel
+  subtitle: The Future of Conversational User Interfaces
+  info: /2021/programme/industry-panel/
+  location: Virtual Event
+  chairs: Minha Lee and Martin Porcheron
+  start_time: 2021-07-29T14:40:00.000Z
+  end_time: 2021-07-29T15:30:00.000Z
+  
+- id: break_8
+  type: Break
+  description: 30 minute break
+  start_time: 2021-07-29T15:30:00.000Z
+  end_time: 2021-07-29T16:00:00.000Z
+
+- id: design
+  type: Talks
+  title: Thinking about design
+  location: Virtual Event
+  start_time: 2021-07-29T16:00:00.000Z
+  end_time: 2021-07-29T16:45:00.000Z
+
+- id: closing
+  type: Plenary
+  title: Closing remarks and CUI 2022 information
+  location: Virtual Event
+  presenters: Stephan Schlögl (CUI 2021 General Chair)<br>CUI Steering Committee<br>CUI 2022 General Chairs
+  start_time: 2021-07-29T16:45:00.000Z
+  end_time: 2021-07-29T17:00:00.000Z

@@ -1,0 +1,28 @@
+---
+layout: none
+---
+{%- assign session_id = page.name | replace: ".ics", "" -%}
+{%- for session in site.data.prg_sessions %}
+{%- if session_id != session.id %}{%- continue -%}{% endif -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//porcheron.uk//Martin Porcheron
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:{{ "now" | date: "%Y%m%dT%H%M00" }}Z
+UID:{{ session.start_time | date: "%Y%m%dT%H%M00" }}Z@2021.conversationaluserinterfaces.org
+DTSTART:{{ session.start_time | date: "%Y%m%dT%H%M00" }}Z
+DTEND:{{ session.end_time | date: "%Y%m%dT%H%M00" }}Z
+SUMMARY:{{ site.conference.short_name }} {{ site.conference.year }}: {{ session.title | escape }}
+DESCRIPTION:{% if session.description != nil -%}{{ session.description | strip_html }}\n\n{% endif %}{% if session.presenters != nil -%}{{ session.presenters | replace: "<br>", "\n" | replace: "<em>", "*" | replace: "</em>", "*" | strip_html }}\n\n{% endif %}{% if session.chairs != nil -%}Chaired by{{ session.chairs }}\n\n{% endif %}Please see {{ site.url }}{{ site.baseurl }}/programme/link/{{ session_id }} for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
+LOCATION:{{ session.location }}
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:{{ session.title | escape }}
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+{% endfor %}

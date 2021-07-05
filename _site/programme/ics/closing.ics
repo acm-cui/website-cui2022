@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//porcheron.uk//Martin Porcheron
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210705T161600Z
+UID:20210729T164500Z@2021.conversationaluserinterfaces.org
+DTSTART:20210729T164500Z
+DTEND:20210729T170000Z
+SUMMARY:CUI 2021: Closing remarks and CUI 2022 information
+DESCRIPTION:Stephan Schlögl (CUI 2021 General Chair)\nCUI Steering Committee\nCUI 2022 General Chairs\n\nPlease see http://localhost:4000/programme/link/closing for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
+LOCATION:Virtual Event
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Closing remarks and CUI 2022 information
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

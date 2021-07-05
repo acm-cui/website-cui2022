@@ -1,0 +1,76 @@
+{% assign last_modified_intro = false %}
+{% assign last_modified = false %}
+
+{% if paginator contains 'posts' %}
+
+	{% if paginator.posts.size > 0 %}
+		{% assign last_modified_intro = 'The newest post on this page was added on ' %}
+		{% assign last_modified = paginator.posts[0].date | date_to_long_string: "ordinal" %}
+	{% endif %}
+    
+{% elsif page.path contains 'organising-committee' %}
+
+	{% capture timestamp_date %}{{ "oc.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
+	{% capture timestamp_rest %}{{ "oc.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
+    
+	{% if timestamp_date == "1" or timestamp_date == "21" or timestamp_date == "31" -%}
+		{% assign suffix = "st" -%}
+	{% elsif timestamp_date == "2" or timestamp_date == "22" -%}
+		{% assign suffix = "nd" -%}
+	{% elsif timestamp_date == "3" or date == "23" -%}
+		{% assign suffix = "rd" -%}
+	{% else -%}
+		{% assign suffix = "th" -%}
+	{% endif -%}
+    
+	{% capture last_modified_str %}{{ timestamp_date }}{{ suffix }} {{ timestamp_rest }}{% endcapture %}
+
+{% elsif page.path contains 'programme-committee' %}
+
+	{% capture timestamp_date %}{{ "pc.csv" | data_file_last_mod: "%-d" }}{% endcapture %}
+	{% capture timestamp_rest %}{{ "pc.csv" | data_file_last_mod: "%B %Y" }}{% endcapture %}
+    
+	{% if timestamp_date == "1" or timestamp_date == "21" or timestamp_date == "31" -%}
+		{% assign suffix = "st" -%}
+	{% elsif timestamp_date == "2" or timestamp_date == "22" -%}
+		{% assign suffix = "nd" -%}
+	{% elsif timestamp_date == "3" or date == "23" -%}
+		{% assign suffix = "rd" -%}
+	{% else -%}
+		{% assign suffix = "th" -%}
+	{% endif -%}
+    
+	{% capture last_modified_str %}{{ timestamp_date }}{{ suffix }} {{ timestamp_rest }}{% endcapture %}
+    
+{% elsif page.path contains 'programme' %}
+
+	{% capture timestamp_sessions_unix %}{{ "prg_sessions.yml" | data_file_last_mod: "%s" }}{% endcapture %}
+	{% capture timestamp_presentations_unix %}{{ "prg_presentations.yml" | data_file_last_mod: "%s" }}{% endcapture %}
+    
+    {% if timestamp_days_unix > timestamp_presentations_unix %}
+        {% capture timestamp_sessions_unix %}{{ "prg_sessions.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
+    	{% capture timestamp_rest %}{{ "prg_sessions.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
+    {% else %}
+        {% capture timestamp_date %}{{ "prg_presentations.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
+    	{% capture timestamp_rest %}{{ "prg_presentations.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
+    {% endif %}
+    
+	{% if timestamp_date == "1" or timestamp_date == "21" or timestamp_date == "31" -%}
+		{% assign suffix = "st" -%}
+	{% elsif timestamp_date == "2" or timestamp_date == "22" -%}
+		{% assign suffix = "nd" -%}
+	{% elsif timestamp_date == "3" or date == "23" -%}
+		{% assign suffix = "rd" -%}
+	{% else -%}
+		{% assign suffix = "th" -%}
+	{% endif -%}
+    
+	{% capture last_modified_str %}{{ timestamp_date }}{{ suffix }} {{ timestamp_rest }}{% endcapture %}
+
+{% else %}
+
+	{% capture last_modified_str %}{{ page.last_modified_at | date_to_long_string: "ordinal" }}{% endcapture %}
+
+{% endif %}
+
+Last modified on: {{ last_modified_str }}

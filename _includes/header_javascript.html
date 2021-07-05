@@ -1,0 +1,10 @@
+<script defer src="{{ "/assets/js/jquery-3.6.0.min.js" | relative_url }}?{{ cache }}"></script>
+<script defer src="{{ "/assets/js/bootstrap.min.js" | relative_url }}?{{ cache }}" ></script>
+{% if page.url == "/programme/" %}
+<script defer src="{{ "/assets/js/prg.js" | relative_url }}?{{ cache }}"></script>
+{% endif %}
+{% if page.url == "/programme/industry-panel/" %}
+<script defer src="{{ "/assets/js/ip.js" | relative_url }}?{{ cache }}"></script>
+{% endif %}
+<script defer src="{{ "/assets/js/menu.js" | relative_url }}?{{ cache }}"></script>
+

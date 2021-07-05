@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//porcheron.uk//Martin Porcheron
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20210705T161600Z
+UID:20210727T144000Z@2021.conversationaluserinterfaces.org
+DTSTART:20210727T144000Z
+DTEND:20210727T153000Z
+SUMMARY:CUI 2021: CUI-4-Good
+DESCRIPTION:Please see http://localhost:4000/programme/link/cui_4_good for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
+LOCATION:Virtual Event
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CUI-4-Good
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

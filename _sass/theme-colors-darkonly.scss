@@ -1,0 +1,68 @@
+header {
+  & .prefill {
+    background: $header-bg-prefill;
+  }
+}
+
+.text-muted { color: $text-muted !important; }
+.bg-light { background-color: $bg-light !important; }
+.bg-lightest { background-color: $body-bg !important; }
+.bg-white { background-color: $bg-lighter !important; }
+.border { border: 1px solid $bg-even-lighter !important; }
+
+hr { border-color: $bg-lightest; }
+
+.list-group-item {
+  color: $white !important;
+  background-color: $bg-even-lighter !important;
+  @include hover-focus() {
+    background-color: $bg-lightest !important;
+  }
+}
+
+.alert-secondary {
+  background: $bg-light;
+  color: $white !important;
+  border-color: $primary;
+  border-width: 2px;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+}
+
+.btn-light {
+  border: 0;
+  color: $white !important;
+  background-color: $bg-light !important;
+  transition-timing-function: $transition-timing-function;
+  transition-duration: $transition-duration;
+  transition-property: background;
+
+  &:active {
+    color: $white !important;
+  };
+
+  @include hover-focus() {
+    color: $white !important;
+    background-color: $bg-lighter !important;
+  }
+}
+
+.prg {
+  h4 {
+    color: lighten(#A92B7A, 5%) !important;
+  }
+	
+  .bg-dark {
+    background: $bg-lighter !important;
+  }
+  
+	.card {
+    border-color: $prg-border-color !important;
+  }
+  
+	li {
+    border-bottom: 1px solid $prg-border-color !important;
+  }
+}

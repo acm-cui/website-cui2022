@@ -1,0 +1,5 @@
+{% if page.target %}
+<meta http-equiv="refresh" content="0; URL='{{ page.target }}'" /> 
+{% else %}
+<meta http-equiv="refresh" content="0; URL='{{ site.url }}/404.html'" /> 
+{% endif %}

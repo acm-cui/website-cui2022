@@ -1,0 +1,68 @@
+full_papers:
+  -  label: Submissions due
+     date: 12th
+     extended_date: 26th February 2021
+
+  -  label: Notifications
+     date: 8th April 2021
+
+  -  label: Rebuttals due
+     date: 15th April 2021
+
+  -  label: Final notifications
+     date: 30th April 2021
+
+  -  label: Content changes due
+     date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
+
+provocation_papers:
+  -  label: Submissions due
+     date: 9th
+     extended_date: 16th April 2021
+
+  -  label: Notifications
+     date: 14th May 2021
+
+  -  label: Content changes due
+     date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
+
+posters:
+  -  label: Submissions due
+     date: 9th
+     extended_date: 16th April 2021
+
+  -  label: Notifications
+     date: 18th May 2021
+
+  -  label: Content changes due
+     date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
+
+demos:
+  -  label: Submissions due
+     date: 9th
+     extended_date: 16th April 2021
+
+  -  label: Notifications
+     date: 14th May 2021
+
+  -  label: Content changes due
+     date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
+
+featured_talks:
+  -  label: Submissions due
+     date: 21st May 2021
+
+  -  label: Notifications
+     date: 4th June 2021

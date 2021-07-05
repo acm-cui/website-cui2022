@@ -1,0 +1,39 @@
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icn/apple-touch-icon.png" | relative_url }}?{{ cache }}">
+<link rel="apple-touch-icon" sizes="167x167" href="{{ "/assets/icn/apple-touch-icon-167x167.png" | relative_url }}?{{ cache }}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ "/assets/icn/apple-touch-icon-152x152.png" | relative_url }}?{{ cache }}">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ "/assets/icn/apple-touch-icon-120x120.png" | relative_url }}?{{ cache }}">
+
+<link rel="icon" type="image/png" sizes="512x512" href="{{ "/assets/icn/android-chrome-512x512.png" | relative_url }}?{{ cache }}">
+<link rel="icon" type="image/png" sizes="228x228" href="{{ "/assets/icn/opera-228x228.png" | relative_url }}?{{ cache }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "/assets/icn/android-chrome-192x192.png" | relative_url }}?{{ cache }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/icn/favicon-32x32.png" | relative_url }}?{{ cache }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/icn/favicon-16x16.png" | relative_url }}?{{ cache }}">
+
+<link rel="manifest" href="{{ "/assets/icn/site.webmanifest" | relative_url }}?{{ cache }}">
+
+<link rel="mask-icon" href="{{ "/assets/icn/safari-pinned-tab.svg" | relative_url }}?{{ cache }}" color="#{{ site.social.browser.theme_colour }}">
+
+<link rel="shortcut icon" href="{{ "/assets/icn/favicon-32x32.png" | relative_url }}?{{ cache }}">
+
+<meta name="msapplication-TileColor" content="#{{ site.social.browser.theme_colour }}">
+<meta name="msapplication-config" content="{{ "/assets/icn/mstile.xml" | relative_url }}?{{ cache }}">
+
+<meta name="theme-color" content="#{{ site.social.browser.theme_colour }}">	
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.social.twitter.username }}">
+<meta name="twitter:creator" content="@{{ site.social.twitter.username }}">
+<meta name="twitter:title" content="{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }} - {{ site.title }}">
+<meta name="twitter:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">
+<meta name="twitter:image:alt" content="{{ site.social.twitter.card_alt }}">
+
+{%- if page contains 'description' %}
+	<meta name="twitter:description" content="{{ page.description | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+	<meta name="description" content="{{ page.description | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+{%- endif -%}
+
+<meta name="og:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">
+<meta name="og:image:width" content="750">
+<meta name="og:image:height" content="750">
+
+{% feed_meta %}
