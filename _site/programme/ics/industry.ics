@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//porcheron.uk//Martin Porcheron
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DTSTAMP:20210705T161600Z
+DTSTAMP:20210706T081700Z
 UID:20210729T144000Z@2021.conversationaluserinterfaces.org
 DTSTART:20210729T144000Z
 DTEND:20210729T153000Z
 SUMMARY:CUI 2021: Industry panel
-DESCRIPTION:Chaired byMinha Lee and Martin Porcheron\n\nPlease see http://localhost:4000/programme/link/industry for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
+DESCRIPTION:Chaired byMinha Lee and Martin Porcheron\n\nPlease see https://www.conversationaluserinterfaces.org/2022/programme/link/industry for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
 LOCATION:Virtual Event
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//porcheron.uk//Martin Porcheron
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DTSTAMP:20210705T161600Z
+DTSTAMP:20210706T081700Z
 UID:20210728T173000Z@2021.conversationaluserinterfaces.org
 DTSTART:20210728T173000Z
 DTEND:20210728T183000Z
 SUMMARY:CUI 2021: Who Wants to Be a CUIllionaire
-DESCRIPTION:Brought to you by *Justin Edwards* and *Allison Perrone* from the Robots on Typewriters podcast\n\nPlease see http://localhost:4000/programme/link/social_2 for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
+DESCRIPTION:Brought to you by *Justin Edwards* and *Allison Perrone* from the Robots on Typewriters podcast\n\nPlease see https://www.conversationaluserinterfaces.org/2022/programme/link/social_2 for more detailed session information.\n\nJoining details are emailed to all registered attendees prior to the conference.
 LOCATION:Virtual Event
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
