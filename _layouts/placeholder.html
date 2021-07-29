@@ -1,0 +1,30 @@
+{%- assign cache = site.time | date: '%s%N' -%}
+<html lang="{{ site.lang }}" class="h-100">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		{%- include header_css.html -%}
+		{%- include header_javascript.html -%}
+		{% if page.title == site.title %}
+		<title>{{ page.title }}</title>
+		{% else %}
+		<title>{{ page.title }} - {{ site.title }}</title>
+		{% endif %}
+		{%- include header_social.html -%}
+    </head>
+    <body class="h-100 mx-auto p-0 bg-light">
+		<div class="container d-flex h-100 my-0 mx-auto p-0">
+      <div class="media  flex-fill flex-md-row flex-column align-self-center">
+        <img src="{{ "/assets/img/cui2022.png" | relative_url }}?{{ cache }}" alt="{{ site.title }} logo" title="{{ site.title }}" class="rounded shadow align-self-center mr-3 mb-md-0 mb-5" style="width: 300px">
+        <div class="media-body  flex-fill px-3 align-self-center text-center">
+          <h1 class="pb-3">{{ page.title }}</h1>
+          {{- content -}}
+    			<footer class="small text-muted mt-md-3">
+    				{%- include footer.html -%}
+    			</footer>
+        </div>
+      </div>
+		</div>
+	</body>
+</html>
