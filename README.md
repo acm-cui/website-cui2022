@@ -19,7 +19,7 @@ If you want to build the website as it will be built for the main repository (i.
 The built site is located in the `_site` directory.
 
 ## How building automatically happens
-When you push to the main branch of this repository, a webhook calls a script running on a Raspberry Pi. On a push the following happens:
+When you push to the main branch of this repository, the following happens:
 1. This repository is pulled from GitHub
 2. The production version of the website is built using Jekyll (see above)
 3. The [main repository for the website](https://github.com/cui-series/conversationaluserinterfaces.org "Main CUI repository") is pulled
