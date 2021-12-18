@@ -23,7 +23,11 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@{{ site.social.twitter.username }}">
 <meta name="twitter:creator" content="@{{ site.social.twitter.username }}">
+{% if page.name == "index.md" %}
+<meta name="twitter:title" content="Welcome to {{ site.conference.short_name }} {{ site.conference.year }}">
+{% else %}
 <meta name="twitter:title" content="{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }} - {{ site.title }}">
+{% endif %}
 <meta name="twitter:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">
 <meta name="twitter:image:alt" content="{{ site.social.twitter.card_alt }}">
 
