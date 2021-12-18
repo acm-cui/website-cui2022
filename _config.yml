@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 name: CUI 2022
-author: CUI 2022 Organising Commitee
+author: Martin Porcheron
 title: CUI 2022
 email: conversationaluserinterfaces@gmail.com
 lang: en-GB
@@ -29,9 +29,9 @@ description: >-
 conference:
   full_name: Conversational User Interfaces
   short_name: CUI
-  year: 2021
-  location: ??
-  dates: ??
+  year: 2022
+  location: Glasgow, UK
+  dates: 26–28th July 2022
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
@@ -40,11 +40,11 @@ permalink: /blog/:year/:month/:day/:title/
 # Social settings
 social:
     browser:
-        theme_colour: A92B7A
+        theme_colour: 2B48A9
     twitter:
         username: CUI_Conference
         card: /assets/img/twittercard.png
-        card_alt: The Conversational User Interfaces 2022 conference 
+        card_alt: CUI 2022 will be in Glasgow, UK from 26th–28th July 2022
     github:
         username: cui-series
 
@@ -59,7 +59,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-titles-from-headings
-
+  - jekyll-menus
 #  - jekyll-target-blank
 #  - jekyll-github-metadata
 
@@ -110,7 +110,7 @@ pagination:
 # Exclude from minificartion
 jekyll-minifier:
   compress_css: false
-  exclude: ['feed.xml', '*.ics']
+  exclude: ['feed.xml', '*.ics', 'posters/*']
 
 # Sitemap configutation
 defaults:

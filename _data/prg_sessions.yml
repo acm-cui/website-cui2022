@@ -10,6 +10,7 @@
   type: Talks
   title: Chatbots
   location: Virtual Event
+  chairs: Martin Halvey
   start_time: 2021-07-27T13:00:00.000Z
   end_time: 2021-07-27T13:50:00.000Z
 
@@ -17,7 +18,7 @@
   type: Interactivity
   title: Posters and Demos I
   location: Virtual Event
-  chairs: Philip R Doyle
+  chairs: Heloisa Candello
   start_time: 2021-07-27T13:50:00.000Z
   end_time: 2021-07-27T14:20:00.000Z
 
@@ -31,6 +32,7 @@
   type: Talks
   title: CUI-4-Good
   location: Virtual Event
+  chairs: Julie Williamson
   start_time: 2021-07-27T14:40:00.000Z
   end_time: 2021-07-27T15:30:00.000Z
 
@@ -43,6 +45,7 @@
 - id: keynote
   type: Keynote
   title: Opening keynote
+  chairs: Stephan Schlögl
   location: Virtual Event
   start_time: 2021-07-27T16:00:00.000Z
   end_time: 2021-07-27T16:45:00.000Z
@@ -72,6 +75,7 @@
 - id: generational
   type: Talks
   title: Generational technology
+  chairs: Sarah Theres Völkel
   location: Virtual Event
   start_time: 2021-07-28T13:00:00.000Z
   end_time: 2021-07-28T13:50:00.000Z
@@ -79,7 +83,7 @@
 - id: posters_demos_2
   type: Interactivity
   title: Posters and Demos II
-  chairs: Heloisa Candello
+  chairs: Philip R Doyle
   location: Virtual Event
   start_time: 2021-07-28T13:50:00.000Z
   end_time: 2021-07-28T14:20:00.000Z
@@ -93,6 +97,7 @@
 - id: multimodality
   type: Talks
   title: Multimodality
+  chairs: Joel E. Fischer
   location: Virtual Event
   start_time: 2021-07-28T14:40:00.000Z
   end_time: 2021-07-28T15:30:00.000Z
@@ -106,6 +111,7 @@
 - id: humanness
   type: Talks
   title: Humanness
+  chairs: Cosmin Munteanu
   location: Virtual Event
   start_time: 2021-07-28T16:00:00.000Z
   end_time: 2021-07-28T16:50:00.000Z
@@ -120,7 +126,7 @@
   type: Social
   title: Who Wants to Be a CUIllionaire
   location: Virtual Event
-  presenters: Brought to you by <em>Justin Edwards</em> and <em>Allison Perrone</em> from the <a href="https://www.batcamp.org/robots/" alt="Robots on Typewriters podcast website">Robots on Typewriters</a> podcast
+  presenters: Brought to you by <em>Justin Edwards</em>, co-host of the <a href="https://www.batcamp.org/robots/" alt="Robots on Typewriters podcast website">Robots on Typewriters</a> podcast, and podcast regular Leigh Clark
   start_time: 2021-07-28T17:30:00.000Z
   end_time: 2021-07-28T18:30:00.000Z
   
@@ -135,6 +141,7 @@
 - id: synthesis_talk
   type: Talks
   title: Synthesis, talk, and directionality
+  chairs: Ilaria Torre
   location: Virtual Event
   start_time: 2021-07-29T13:00:00.000Z
   end_time: 2021-07-29T13:50:00.000Z
@@ -173,14 +180,15 @@
 - id: design
   type: Talks
   title: Thinking about design
+  chairs: Donald McMillan
   location: Virtual Event
   start_time: 2021-07-29T16:00:00.000Z
-  end_time: 2021-07-29T16:45:00.000Z
+  end_time: 2021-07-29T16:50:00.000Z
 
 - id: closing
   type: Plenary
   title: Closing remarks and CUI 2022 information
   location: Virtual Event
-  presenters: Stephan Schlögl (CUI 2021 General Chair)<br>CUI Steering Committee<br>CUI 2022 General Chairs
-  start_time: 2021-07-29T16:45:00.000Z
+  presenters: Cosmin Munteanu, on behalf of the CUI Steering Committee<br>CUI 2022 General Chairs
+  start_time: 2021-07-29T16:50:00.000Z
   end_time: 2021-07-29T17:00:00.000Z

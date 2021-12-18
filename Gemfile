@@ -29,6 +29,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
   gem 'jekyll-titles-from-headings'
+  gem "jekyll-menus"
 end
 
 #  gem 'jekyll-target-blank'

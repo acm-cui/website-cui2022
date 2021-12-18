@@ -1,6 +1,6 @@
 {
-    "name": "CUI 2021",
-    "short_name": "CUI 2021",
+    "name": "CUI 2022",
+    "short_name": "CUI 2022",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#A92B7A",
-    "background_color": "#A92B7A",
-    "start_url": "https://www.conversationaluserinterfaces.org/2021/"
+    "theme_color": "#2B48A9",
+    "background_color": "#2B48A9",
+    "start_url": "https://www.conversationaluserinterfaces.org/2022/"
 }

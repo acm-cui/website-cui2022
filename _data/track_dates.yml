@@ -1,64 +1,29 @@
 full_papers:
   -  label: Submissions due
-     date: 12th
-     extended_date: 26th February 2021
+     date: 23rd February 2022
 
   -  label: Notifications
-     date: 8th April 2021
+     date: 6th April 2022
 
-  -  label: Rebuttals due
-     date: 15th April 2021
+  -  label: Shepherding
+     date: 6–20th April 2022
 
   -  label: Final notifications
-     date: 30th April 2021
+     date: 27th April 2022
 
-  -  label: Content changes due
-     date: 28th May 2021
+  -  label: Camera ready due
+     date: 11th May 2022
 
-  -  label: Paper finalised
-     date: 25th June 2021
-
-provocation_papers:
+short_papers:
   -  label: Submissions due
-     date: 9th
-     extended_date: 16th April 2021
+     extended_date: 14 April 2022
 
   -  label: Notifications
-     date: 14th May 2021
+     date: 19th May 2022
 
-  -  label: Content changes due
-     date: 28th May 2021
+  -  label: Camera ready due
+     date: 23rd June 2022
 
-  -  label: Paper finalised
-     date: 25th June 2021
-
-posters:
-  -  label: Submissions due
-     date: 9th
-     extended_date: 16th April 2021
-
-  -  label: Notifications
-     date: 18th May 2021
-
-  -  label: Content changes due
-     date: 28th May 2021
-
-  -  label: Paper finalised
-     date: 25th June 2021
-
-demos:
-  -  label: Submissions due
-     date: 9th
-     extended_date: 16th April 2021
-
-  -  label: Notifications
-     date: 14th May 2021
-
-  -  label: Content changes due
-     date: 28th May 2021
-
-  -  label: Paper finalised
-     date: 25th June 2021
 
 featured_talks:
   -  label: Submissions due

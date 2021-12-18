@@ -2,11 +2,11 @@
 <browserconfig>
     <msapplication>
       <tile>
-        <square70x70logo src="https://www.conversationaluserinterfaces.org/2021/assets/icn/mstile-70x70.png"/>
-        <square150x150logo src="https://www.conversationaluserinterfaces.org/2021/assets/icn/mstile-150x150.png"/>
-        <wide310x150logo src="https://www.conversationaluserinterfaces.org/2021/assets/icn/mstile-310x150.png"/>
-        <square310x310logo src="https://www.conversationaluserinterfaces.org/2021/assets/icn/mstile-310x310.png"/>
-        <TileColor>#A92B7A</TileColor>
+        <square70x70logo src="https://www.conversationaluserinterfaces.org/2022/assets/icn/mstile-70x70.png"/>
+        <square150x150logo src="https://www.conversationaluserinterfaces.org/2022/assets/icn/mstile-150x150.png"/>
+        <wide310x150logo src="https://www.conversationaluserinterfaces.org/2022/assets/icn/mstile-310x150.png"/>
+        <square310x310logo src="https://www.conversationaluserinterfaces.org/2022/assets/icn/mstile-310x310.png"/>
+        <TileColor>#2B48A9</TileColor>
       </tile>
     </msapplication>
 </browserconfig>

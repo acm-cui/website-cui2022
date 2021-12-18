@@ -1,0 +1,4 @@
+{% for item in menu %}
+  {% if item.sep_before %}<div class="dropdown-divider"></div>{% endif %}
+  <a class="dropdown-item dropdown-item-{{ loop.index }} py-md-1 py-2" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">{{ item.title }}</a>
+{% endfor %}

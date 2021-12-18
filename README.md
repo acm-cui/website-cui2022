@@ -1,14 +1,10 @@
-<h1 style="text-align: center;">Conversational User Interfaces<br>2022 Conference Website</h1>
+<h1 style="text-align: center;">Conversational User Interfaces<br>2021 Conference Website</h1>
 
-This is the 2022 conference website. The website is built uising [Jekyll](https://jekyllrb.com "Jekyll website"), a static website building software written in Ruby. This repository contains the source the website.
+This is the 2021 conference website. The website is built uising [Jekyll](https://jekyllrb.com "Jekyll website"), a static website building software written in Ruby. This repository contains the source the website.
 
 Every time a new push/pull request is merged into the main branch of this repository, the website is rebuilt from scratch. The built website is copied them into the [main repository for the website](https://github.com/cui-series/conversationaluserinterfaces.org "Main CUI repository"), that the domain conversationaluserinterfaces.org points to. You can also edit this website online through GitHub and the changes will be made to the live website.
 
-To keep all the websites in separate repositories, when you push to this repository Jekyll source, a web hook triggers a pull request of the repository, a Jekyll build for production, and a push to the main conversationaluserinterfaces.org repository.
-
-## Previous conferences
-
-You should be able to access the [CUI 2021 source on GitHub](https://github.com/cui-series/websrc-cui2021). Feel free to steal any/all the implementation.
+Please do not push to the main repository for the website as changes may be automatically overridden when the website is next rebuilt.
 
 ## Building the website manually
 
@@ -19,7 +15,7 @@ If you want to build the website as it will be built for the main repository (i.
 The built site is located in the `_site` directory.
 
 ## How building automatically happens
-When you push to the main branch of this repository, the following happens:
+When you push to the main branch of this repository, a webhook calls a script running on a Raspberry Pi in Martin Porcheron's home. On a push the following happens:
 1. This repository is pulled from GitHub
 2. The production version of the website is built using Jekyll (see above)
 3. The [main repository for the website](https://github.com/cui-series/conversationaluserinterfaces.org "Main CUI repository") is pulled
@@ -28,5 +24,3 @@ When you push to the main branch of this repository, the following happens:
 6. GitHub run a number of automatic checks, and then the changes will appear on conversationaluserinterfaces.org
 
 This process can take a few minutes. If it doesn't seem to work, message Martin Porcheron as there may be a build error (the system fails quietly for now).
-
-If you're installing any new Ruby Gems, let Martin know as he may need to run `build install` on the Pi.

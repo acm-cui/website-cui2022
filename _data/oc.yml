@@ -2,68 +2,27 @@ conference:
     label: Conference chairs
     roles:
         general:
-            label: General Chair
-            email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
+            label: General Chairs
+            email: 'mailto:cui2022-generalchairs@conversationaluserinterfaces.org'
             contact: true
             people:
-              - name: Stephan Schlögl
-                institution: MCI Management Center Innsbruck
-                country: Austria
-
-        assnt_general:
-            label: Assistant to the General Chair
-            email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
-            people:
-              - name: Alexander Monz
-                institution: MCI Management Center Innsbruck
-                country: Austria
-
-        programme:
-            label: Programme Chairs
-            email: https://spamty.eu/show/v6/444/19e2d9aa7d1beb95695d606c/
-            people:
-              - name: Martin Porcheron
-                institution: Swansea University
+              - name: Martin Halvey
+                institution: University of Strathclyde
                 country: UK
-              - name: Leigh Clark
-                institution: Swansea University
+              - name: Mary Ellen Foster
+                institution: University of Glasgow
+                country: UK
+              - name: Jeff Dalton
+                institution: University of Glasgow
                 country: UK
 
-        registration:
-            label: Registration Chair
-            email: https://spamty.eu/show/v6/908/23efe01f29d0aca74ed28cd5/
-            registration: true
+        web:
+            label: Web Chairs
+            email: 'mailto:cui2022-webchairs@conversationaluserinterfaces.org'
             people:
-              - name: Benjamin Cowan
-                institution: University College Dublin
-                country: Ireland
-
-        virtual:
-            label: Virtual Chairs
-            email: https://spamty.eu/show/v6/454/d6a386d1c54353b40cce3766/
-            people:
-              - name: Justin Edwards
-                institution: University College Dublin
-                country: Ireland
-              - name: Rebecca Weichelt
-                institution: MCI Management Center Innsbruck
-                country: Austria
-
-        sv_diversity:
-            label: SV and Diversity Chair
-            email: https://spamty.eu/show/v6/837/a7e8b5d1e39308f1a409d905/
-            people:
-              - name: Jaisie Sin
-                institution: University of Toronto
-                country: Canada
-
-        social_media:
-            label: Social Media/Web Chairs
-            email: https://spamty.eu/show/v6/445/489e4bef817ded48a5a92590/
-            people:
-              - name: Leigh Clark
-                institution: Swansea University
-                country: UK
+              - name: Gionnieve Lim Jia Yu
+                institution: Singapore University of Technology and Design
+                country: Singapore
               - name: Martin Porcheron
                 institution: Swansea University
                 country: UK
@@ -73,70 +32,25 @@ tracks:
     roles:
         full_papers:
             label: Full Papers Chairs
-            email: https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/
-            people:
-              - name: Benjamin Cowan
-                institution: University College Dublin
-                country: Ireland
-              - name: Minha Lee
-                institution: Eindhoven University of Technology
-                country: Netherlands
-              - name: Bob Moore
-                institution: IBM Research
-                country: USA
-
-        provocation_papers:
-            label: Provocation Papers Chairs
-            email: https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/
-            people:
-              - name: Jennifer Pearson
-                institution: Swansea University
-                country: UK
-              - name: Donald McMillan
-                institution: Stockholm University
-                country: Sweden
-              - name: Ilaria Torre
-                institution: KTH
-                country: Sweden
-
-        posters:
-            label: Posters Chairs
-            email: https://spamty.eu/show/v6/475/4db6e6563d04cc6b8f12b7be/
+            email: 'mailto:cui2022-fullpapers@conversationaluserinterfaces.org'
             people:
               - name: Cosmin Munteanu
                 institution: University of Toronto
-                country: Canada
-              - name: Moira McGregor
-                institution: Brunel University London
-                country: UK
-              - name: Emer Gilmartin
-                institution: Trinity College Dublin
-                country: Ireland
+                country: Australia
+              - name: Johanne Trippas
+                institution: University of Melbourne
+                country: Australia
 
-        demos:
-            label: Demos Chairs
-            email: https://spamty.eu/show/v6/439/25bd933bfedaf450f74c416c/
+        short_papers:
+            label: Short Papers Chairs
+            email: 'mailto:cui2022-shortpapers@conversationaluserinterfaces.org'
             people:
               - name: Heloisa Candello
                 institution: IBM Research
                 country: Brazil
-              - name: Christine Murad
-                institution: University of Toronto
-                country: Canada
-              - name: Philip Doyle
-                institution: University College Dublin
-                country: Ireland
-
-        featured_talks:
-            label: Featured Talks Chairs
-            email: https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/
-            people:
-              - name: Selina Sutton
-                institution: Northumbria University
-                country: UK
-              - name: Martin Porcheron
-                institution: Swansea University
-                country: UK
-              - name: Stuart Reeves
-                institution: University of Nottingham
+              - name: Mateusz Dubiel
+                institution: University of Luxembourg
+                country: Luxembourg
+              - name: Yanchao Yu
+                institution: Edinburgh Napier University
                 country: UK

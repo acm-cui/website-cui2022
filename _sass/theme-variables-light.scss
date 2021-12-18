@@ -2,13 +2,13 @@
 $body-bg:                             #ffffff;
 $body-fg:                             #000000;
 
-$primary:                             #A92B7A;
+$primary:                             #2B48A9;
 
 $nav-bg:                              rgba(#ffffff, 0.2);
 $nav-bg-sm:                           rgba(#ffffff, 0.5);
 $nav-bg-fx:                           rgba(#ffffff, 0.9);
 $nav-bg-filter:                       saturate(180%) blur(20px);
-$nav-border:                          1px solid rgba(#ffffff, 0.45);
+$nav-border:                          1px solid rgba($primary, 0.45);
 
 $nav-item-border:                     1px solid rgba(#000000, 0.05);
 $navbar-toggler-color:                #000000;
