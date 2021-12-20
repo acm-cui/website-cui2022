@@ -4,7 +4,7 @@ description: >
   The !!conference.year!! !!conference.full_name!! conference will take place in Glasgow, UK, running from !!conference.dates!!.
 ---
 
-# Welcome to !!conference.short_name!!!
+# Welcome to !!conference.short_name!!
   
 <div class="row">
 	<!--<div class="col-xl-8 col-lg-7 col-md-6 col-12">-->
