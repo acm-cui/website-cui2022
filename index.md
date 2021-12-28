@@ -10,7 +10,7 @@ description: >
 	<!--<div class="col-xl-8 col-lg-7 col-md-6 col-12">-->
 	<div class="col-xl-12 col-lg-12 col-md-12 col-12">
 		<p>
-		  Following the successful {{ site.conference.short_name }} conferences in 2019, 2020 and 2021, {{ site.conference.short_name }} {{ site.conference.year }} will be in <strong>{{ site.conference.location }}</strong>. The conference will run from <strong>{{ site.conference.dates }}</strong>.
+		  Following the successful {{ site.conference.short_name }} conferences in 2019, 2020 and 2021, <strong>{{ site.conference.short_name }} {{ site.conference.year }} will be in {{ site.conference.location }}</strong>. The conference will run from <strong>{{ site.conference.dates }}</strong>.
 		</p>
 
 		<p>
