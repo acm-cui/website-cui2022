@@ -1,7 +1,7 @@
 ---
 permalink: /
 description: > 
-  The !!conference.year!! !!conference.full_name!! conference will take place in Glasgow, UK, running from !!conference.dates!!.
+  The ACM in-cooperation !!conference.year!! !!conference.full_name!! conference will take place in Glasgow, UK, running from !!conference.dates!!.
 ---
 
 # Welcome to !!conference.short_name!!
