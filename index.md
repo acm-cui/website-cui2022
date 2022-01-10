@@ -7,10 +7,10 @@ description: >
 # Welcome to !!conference.short_name!!
   
 <div class="row">
-	<!--<div class="col-xl-8 col-lg-7 col-md-6 col-12">-->
-	<div class="col-xl-12 col-lg-12 col-md-12 col-12">
+<!--	<div class="col-xl-12 col-lg-12 col-md-12 col-12">-->
+	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
 		<p>
-		  Following the successful {{ site.conference.short_name }} conferences in 2019, 2020 and 2021, <strong>{{ site.conference.short_name }} {{ site.conference.year }} will be in {{ site.conference.location }}</strong>. The conference will run from <strong>{{ site.conference.dates }}</strong>.
+		  <strong>{{ site.conference.short_name }} {{ site.conference.year }} is an ACM in-cooperation conference that will be held in {{ site.conference.location }}</strong> from <strong>{{ site.conference.dates }}</strong>.
 		</p>
 
 		<p>
@@ -45,7 +45,7 @@ description: >
 		</p>
 	</div>
 
-	<!--<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
+	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
 		<a href="https://acm.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
 			<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-acmincoop-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
@@ -54,7 +54,7 @@ description: >
 			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
 		</a>
-		<h3 class="mt-5 text-center flex-grow-1">Sponsors</h3>
+		<!--<h3 class="mt-5 text-center flex-grow-1">Sponsors</h3>
 		<div class="d-flex flex-row flex-items-basis-0">
 			<a href="https://www.hci.ucd.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="flex-grow-1 flex-shrink-1 pr-3">
 				<img src="{{ "/assets/img/sponsor-hciucd.png" | relative_url }}" alt="HCI@UCD logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="mt-md-3 mt-5 homepage-sponsor">
@@ -75,6 +75,6 @@ description: >
 			</a>
 		</div>
 		<h3 class="w-100 mt-5 text-light bg-dark rounded shadow text-center">Sponsors</h3>
-		<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-3 homepage-banner">
-	</div>-->
+		<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-3 homepage-banner">-->
+	</div>
 </div>
