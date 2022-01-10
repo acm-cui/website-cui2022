@@ -10,7 +10,7 @@ description: >
 <!--	<div class="col-xl-12 col-lg-12 col-md-12 col-12">-->
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
 		<p>
-		  <strong>{{ site.conference.short_name }} {{ site.conference.year }} is an ACM in-cooperation conference that will be held in {{ site.conference.location }}</strong> from <strong>{{ site.conference.dates }}</strong>.
+			<strong>{{ site.conference.short_name }} {{ site.conference.year }}</strong> is an ACM in-cooperation conference in <strong>{{ site.conference.location }}</strong>, from <strong>{{ site.conference.dates }}</strong>.
 		</p>
 
 		<p>
