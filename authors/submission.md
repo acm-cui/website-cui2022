@@ -8,6 +8,6 @@ menus:
   authors:
     title: EasyChair login
     alt: Go to the submission system for !!conference.short_name!! !!conference.year!!
+    sep_before: true
     weight: 6
-		sep_before: true
 ---
