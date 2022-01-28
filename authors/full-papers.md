@@ -5,7 +5,7 @@ description: "The Full Papers track at !!conference.short_name!! !!conference.ye
 cta:
   text: Submit now
   title: Go to EasyChair to manage your paper submission
-  link: /2021/authors/submission/
+  link: /2022/authors/submission/
   
 track:
   chairs: full_papers
