@@ -3,9 +3,9 @@ label: Short Papers
 description: Short Papers at !!conference.short_name!! !!conference.year!! combines the previous tracks of provocation papers, demos, and posters into one new enhanced track.
 
 cta:
-  text: Submissions opening soon
-#  title: Go to EasyChair to manage your paper submission
-#  link: /2021/authors/submission/
+  text: Submit your paper
+  title: Go to EasyChair to manage your paper submission
+  link: /2022/authors/submission/
   
 track:
   chairs: short_papers
