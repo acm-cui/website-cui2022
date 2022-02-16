@@ -56,7 +56,7 @@ description: >
 		</a>
 		<h3 class="mt-5 text-center flex-grow-1">Sponsors</h3>
 		<div class="d-flex flex-row flex-items-basis-0">
-			<a href="https://www.sicsa.ac.uk" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="flex-grow-1 flex-shrink-1 pr-3">
+			<a href="https://www.sicsa.ac.uk" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="flex-grow-1 flex-shrink-1">
 				<img src="{{ "/assets/img/sponsor-sicsa-light.png" | relative_url }}" alt="The Scottish Informatics &amp; Computer Science Alliance" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
 				<img src="{{ "/assets/img/sponsor-sicsa-dark.png" | relative_url }}" alt="The Scottish Informatics &amp; Computer Science Alliance" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
