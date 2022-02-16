@@ -54,7 +54,14 @@ description: >
 			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
 		</a>
-		<!--<h3 class="mt-5 text-center flex-grow-1">Sponsors</h3>
+		<h3 class="mt-5 text-center flex-grow-1">Sponsors</h3>
+		<div class="d-flex flex-row flex-items-basis-0">
+			<a href="https://www.sicsa.ac.uk" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="flex-grow-1 flex-shrink-1 pr-3">
+				<img src="{{ "/assets/img/sponsor-sicsa-light.png" | relative_url }}" alt="The Scottish Informatics &amp; Computer Science Alliance" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsor-sicsa-dark.png" | relative_url }}" alt="The Scottish Informatics &amp; Computer Science Alliance" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the Scottish Informatics &amp; Computer Science Alliance" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			</a>
+		</div>
+		<!--
 		<div class="d-flex flex-row flex-items-basis-0">
 			<a href="https://www.hci.ucd.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="flex-grow-1 flex-shrink-1 pr-3">
 				<img src="{{ "/assets/img/sponsor-hciucd.png" | relative_url }}" alt="HCI@UCD logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="mt-md-3 mt-5 homepage-sponsor">
