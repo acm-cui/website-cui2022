@@ -1,6 +1,7 @@
 full_papers:
   -  label: Submissions due
-     date: 23rd February 2022
+     date: 23rd Feb.
+     extended_date: 2nd March 2022
 
   -  label: Notifications
      date: 6th April 2022
@@ -16,7 +17,7 @@ full_papers:
 
 short_papers:
   -  label: Submissions due
-     extended_date: 14 April 2022
+     date: 14 April 2022
 
   -  label: Notifications
      date: 19th May 2022
