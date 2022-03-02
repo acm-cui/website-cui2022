@@ -3,7 +3,7 @@ conference:
     roles:
         general:
             label: General Chairs
-            email: 'mailto:cui2022-generalchairs@conversationaluserinterfaces.org'
+            email: 'mailto:cui2022-general@conversationaluserinterfaces.org'
             contact: true
             people:
               - name: Martin Halvey
@@ -16,9 +16,17 @@ conference:
                 institution: University of Glasgow
                 country: UK
 
+        accessibility_diversity:
+            label: Accessibility and Diversity Chair
+            email: 'mailto:cui2022-accessibility@conversationaluserinterfaces.org'
+            people:
+              - name: Jaisie Sin
+                institution: University of Toronto
+                country: Canada
+
         web:
             label: Web Chairs
-            email: 'mailto:cui2022-webchairs@conversationaluserinterfaces.org'
+            email: 'mailto:cui2022-web@conversationaluserinterfaces.org'
             people:
               - name: Gionnieve Lim Jia Yu
                 institution: Singapore University of Technology and Design
