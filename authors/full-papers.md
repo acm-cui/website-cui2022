@@ -3,9 +3,9 @@ label: Full Papers
 description: "The Full Papers track at !!conference.short_name!! !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
 
 cta:
-  text: Submit your paper
-  title: Go to EasyChair to manage your paper submission
-  link: /2022/authors/submission/
+  text: Submissions closed
+  title: Submissions for the full papers track have now closed
+#  link: /2022/authors/submission/
   
 track:
   chairs: full_papers
