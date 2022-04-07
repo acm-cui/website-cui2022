@@ -17,10 +17,11 @@ full_papers:
 
 short_papers:
   -  label: Submissions due
-     date: 14 April 2022
+     date: 14
+     extended_date: 22nd April 2022
 
   -  label: Notifications
-     date: 19th May 2022
+     date: 26th May 2022
 
   -  label: Camera ready due
      date: 23rd June 2022
