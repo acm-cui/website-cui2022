@@ -1,5 +1,5 @@
 ---
-label: Registration
+label: Reduced Rate Eligibility
 description: Details about the reduced rate for !!conference.year!! !!conference.full_name!! for individuals who live in an economically developing country.
 
 registration_open: false
