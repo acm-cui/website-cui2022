@@ -16,7 +16,7 @@ menus:
 
 The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} is progressively assembling this information. If you have questions or wish to raise a point regarding our efforts to ensure all attendees can participate, please contact us <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">by email</a>.
 
-## How do I communicate accessibility needs to organizers?
+## How do I communicate accessibility needs to organisers?
 
 The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} has a goal of ensuring the conference is accessible to everyone. When you register for the conference, there will be a questions for you to answer about your needs. Please complete these to indicate anything that will help make the conference accessible to you.
 
@@ -40,7 +40,7 @@ If you would benefit from assistance in giving your presentation or handling que
 
 ## Will presenters be visible?
 
-Presenters and speakers will be requested to use video when speaking to help lip-reading and non-native speakers. We recognize that this may not be possible for every speaker. Captions will be available throughout the conference as a fallback.
+Presenters and speakers will be requested to use video when speaking to help lip-reading and non-native speakers. We recognise that this may not be possible for every speaker. Captions will be available throughout the conference as a fallback.
 
 ## I have another question
 
