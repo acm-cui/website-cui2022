@@ -10,11 +10,15 @@ menus:
     sep_before: true
 ---
 
-# Accessibility
+# Accessibility and Diversity
 
-{{ site.conference.short_name }} {{ site.conference.year}} strives to be an inclusive and accessible conference and we will do our best to accommodate requests for special assistance. Information will be posted here as we develop our plans for the conference, to help you make an informed decision about whether the conference will be accessible to you. Please contact us if your question is not answered here, or if the conference arrangements as described are not enough to allow you to attend. We will work with you to the best of our ability, to make the conference accessible.
+{{ site.conference.short_name }} {{ site.conference.year }} strives to be an inclusive and accessible conference and we will do our best to accommodate requests for special assistance. Information will be posted here as we develop our plans for the conference, to help you make an informed decision about whether the conference will be accessible to you. Please contact us if your question is not answered here, or if the conference arrangements as described are not enough to allow you to attend. We will work with you to the best of our ability, to make the conference accessible.
 
 The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} is progressively assembling this information. If you have questions or wish to raise a point regarding our efforts to ensure all attendees can participate, please contact us <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">by email</a>.
+
+## Pronouns
+
+Per {{ site.conference.short_name }}'s commitment to diversity, inclusion and equity, we wish for all attendees to indicate their pronouns to promote a safe, welcoming, and inclusive environment. This information will be included on your {{ site.conference.short_name }} {{ site.conference.year }} badge and in the online attendee profile of the virtual platform to foster dignity, courtesy, understanding, and mutual respect during interactions throughout the conference. Providing/displaying your pronoun on your badge is not mandatory.
 
 ## How do I communicate accessibility needs to organisers?
 
@@ -26,7 +30,7 @@ Please be aware that some accommodations may be difficult to provide at short no
 
 ## Will sign language interpretation be available?
 
-If you request sign language interpretation in your conference registration, we will strive to provide interpretation for all conference presentations and events, including informal conversations. Please register your request before the early registration deadline. The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} will follow up with you and connect you to interpreters and make arrangements for the streams. After that point, we will do our best to accommodate the needs.
+If you request sign language interpretation in your conference registration, we will strive to provide interpretation for all conference presentations and events, including informal conversations. Please register your request before the 25th June 2022. The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} will follow up with you and connect you to interpreters and make arrangements for the streams. Any request after this deadline may be difficult to fulfill depending on the type of request. Please note that we strive to be an inclusive, accessible conference, but not all requests can be guaranteed.
 
 You may also bring your own interpreter to the event. Please reach out to the {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} to set this up.
 
