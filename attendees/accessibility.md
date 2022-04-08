@@ -20,7 +20,7 @@ The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }
 
 The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} has a goal of ensuring the conference is accessible to everyone. When you register for the conference, there will be a questions for you to answer about your needs. Please complete these to indicate anything that will help make the conference accessible to you.
 
-Possible requests include but are not limited to: sign language interpretation, note taker, assistive listening device, captioning, description (for slides, overheads or videos), and so on. The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} will follow up with requests. You can contact them directly at any time by <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">emailing us</a>
+Possible requests include but are not limited to: sign language interpretation, note taker, assistive listening device, captioning, description (for slides, overheads or videos), and so on. The {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} will follow up with requests. You can contact them directly at any time by <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">emailing us</a>.
 
 Please be aware that some accommodations may be difficult to provide at short notice, and we may not be able to accommodate every request.
 
@@ -32,7 +32,7 @@ You may also bring your own interpreter to the event. Please reach out to the {{
 
 ## Will there be a chance to try the videoconferencing and other technologies in advance of the conference?
 
-Yes, if you would like early access and an introductory tour of any of the conference technologies, please contact the SV and Diversity Chairs by <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">emailing us</a>.
+Yes, if you would like early access and an introductory tour of any of the conference technologies, please contact the {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} by <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">emailing us</a>.
 
 ## Can someone assist me with my online participation/presentation?
 
@@ -44,4 +44,4 @@ Presenters and speakers will be requested to use video when speaking to help lip
 
 ## I have another question
 
-If you have other questions about accessibility at {{ site.conference.short_name }} {{ site.conference.year}}, please contact the SV and Diversity Chairs by <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">emailing us</a>.
+If you have other questions about accessibility at {{ site.conference.short_name }} {{ site.conference.year}}, please contact the {{ site.data.oc['conference']['roles']['accessibility_diversity']['label'] }} by <a href="{{ site.data.oc['conference']['roles']['accessibility_diversity']['email'] }}">emailing us</a>.
