@@ -103,7 +103,7 @@ There are four different rates for registration at {{ site.conference.short_name
 				<td>£100</td>
 		</tr>
 		<tr>
-				<td colspan="6" class="border-top"><strong>Late></strong> <span class="small">(closes midnight July 22nd 2022)</span></td>
+				<td colspan="6" class="border-top"><strong>Late</strong> <span class="small">(closes midnight July 22nd 2022)</span></td>
 		</tr>
 		<tr>
 				<td></td>
