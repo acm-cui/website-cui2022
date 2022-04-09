@@ -4,7 +4,7 @@ description: How we are working to ensure that !!conference.short_name!! !!confe
 
 menus:
   attendees:
-    title: Accessibility
+    title: Accessibility and Diversity
     alt: How we are working to ensure that !!conference.short_name!! !!conference.year!! is accessible for all attendees
     weight: 2
     sep_before: true
