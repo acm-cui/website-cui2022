@@ -117,7 +117,7 @@ There are four different rates for registration at {{ site.conference.short_name
 	</tbody>
 </table>
 
-The Reduced rate is only open to individuals in economically developing countries—please [check this list of countries](/attendees/reduced-rates/ "Reduced Rate Eligibility for {{ site.conference.short_name }} {{ site.conference.year }}") to determine if you are eligible. The Student Rate is restricted to students, and you may be asked to provides evidence of your student status.
+The Reduced rate is only open to individuals in economically developing countries—please [check this list of countries]({{ '/attendees/reduced-rates/' | relative_url }} "Reduced Rate Eligibility for {{ site.conference.short_name }} {{ site.conference.year }}") to determine if you are eligible. The Student Rate is restricted to students, and you may be asked to provides evidence of your student status.
 
 <!--
 ## Receipts
