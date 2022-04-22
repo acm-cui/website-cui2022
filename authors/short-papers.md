@@ -72,7 +72,7 @@ Short Papers are original and unpublished contributions from a broad range of di
 			<li>
         Video showreels must be no more than 2 minutes long. The video should showcase how the demonstration will be delivered for online delegates and should highlight: the technology, its potential uses, how it will be demonstrated, and efforts made to increase engagement and interactivity.				</li>
 			<li>
-				Accessibility and inclusivity statement describing how the presentation adheres to accessibility and inclusivity requirements stipulated on the submission guidance page.
+				Accessibility and inclusivity statement, describing how you will work to ensure the presentation will be accessible to all attendees. Please include this in your short paper (it is excluded from the word count).
 			</li>
 		</ul>
 
