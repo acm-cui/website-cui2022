@@ -1,7 +1,7 @@
 ---
 label: Registration
 description: Details about registration for the !!conference.year!! !!conference.full_name!! conference.
-registration_open: false
+registration_open: true
 
 menus:
   attendees:
@@ -20,7 +20,7 @@ Registration for {{ site.conference.short_name }} {{ site.conference.year }} is 
 
 <div class="d-block py-5 mb-2 text-center">
 {% if page.registration_open %}
-	<a href="https://sisweb.ucd.ie/usis/W_HU_MENU.P_PUBLISH?p_tag=CONFHCI" class="btn btn-lg btn-primary" title="Register for {{ site.conference.short_name }} {{ site.conference.year }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
+	<a href="https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/conversational-user-interfaces" class="btn btn-lg btn-primary" title="Register for {{ site.conference.short_name }} {{ site.conference.year }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
 {% else %}
 	<a class="btn btn-lg btn-outline-primary disabled">Registration is currently closed</a>
 {% endif %}
