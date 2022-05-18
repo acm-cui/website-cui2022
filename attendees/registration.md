@@ -133,12 +133,12 @@ If the automated email confirmation is not adequate for your institutional recor
 {%- endfor %} for a more complete receipt. Please include in your email a bullet-point list of what is required on the receipt.-->
 
 
-## Need support or have questions?
+## Need support, visa letters, or have a question?
 
 {% for group in site.data.oc %}
 	{% for role in group[1]['roles'] %}
 		{%- if role[0] == 'general' %}
-<p>If you need any support or have questions about the registration process, please contact the <a href="{{ role[1].email }}" title="Email address for the {{ site.conference.short_name }} {{ site.conference.year }} {{ role[1].label }}">{{ site.conference.short_name }} {{ site.conference.year }} {{ role[1].label }}</a>.</p>
+<p>If you need any support, a visa letter, or have questions about the registration process, please contact the <a href="{{ role[1].email }}" title="Email address for the {{ site.conference.short_name }} {{ site.conference.year }} {{ role[1].label }}">{{ site.conference.short_name }} {{ site.conference.year }} {{ role[1].label }}</a>.</p>
 		{% break %}
 		{% endif %}
 	{% endfor %}
