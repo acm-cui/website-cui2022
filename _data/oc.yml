@@ -35,13 +35,6 @@ conference:
                 institution: Swansea University
                 country: UK
 
-        registration:
-            label: Registration Support
-            email: 'mailto:test@example.com?'
-            people:
-              - name: ??
-                institution: ??
-                country: ??
 
 tracks:
     label: Track chairs
