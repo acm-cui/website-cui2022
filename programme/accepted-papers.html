@@ -1,0 +1,72 @@
+---
+label: Accepted papers
+title: Accepted papers
+redirect_from:
+  - /program/
+description: Papers accepted for presentation at !!conference.full_name!! !!conference.year!!.
+
+menus:
+  programme:
+    title: Accepted papers
+    alt: Papers accepted for presentation at !!conference.full_name!! !!conference.year!!
+    weight: 0
+---
+
+{% assign num_sessions = site.data.prg_sessions | size %}
+{% assign num_keynotes = 0 %}
+{% assign num_full_papers = 0 %}
+{% assign num_provocation_papers = 0 %}
+{% assign num_panels = 0 %}
+{% assign num_demos = 0 %}
+{% assign num_posters = 0 %}
+{% assign num_featured_talks = 0 %}
+
+{% assign sorted_sessions = site.data.prg_sessions | sort: "start_time" %}
+{% assign days = "" | split: ',' %}
+{% for session in sorted_sessions %}
+	{% assign day = session.start_time | date: "%-d %B %Y" %}
+	{% assign days = days | push: day %}
+
+	{% if session.type == 'EOD' %}
+	{% assign num_sessions = num_sessions | plus: -1 %}
+	{% elsif session.type == 'Break' %}
+	{% assign num_sessions = num_sessions | plus: -1 %}
+	{% endif %}
+
+	{% for presentation in site.data.prg_presentations[session.id]
+	 %}
+		{% if presentation.type == "Full Paper" %}
+			{% assign num_full_papers = num_full_papers | plus: 1 %}
+		{% elsif presentation.type == "Provocation Paper" %}
+			{% assign num_provocation_papers = num_provocation_papers | plus: 1 %}
+		{% elsif presentation.type == "Panel" %}
+			{% assign num_panels = num_panels | plus: 1 %}
+		{% elsif presentation.type == "Demo" %}
+			{% assign num_demos = num_demos | plus: 1 %}
+		{% elsif presentation.type == "Poster" %}
+			{% assign num_posters = num_posters | plus: 1 %}
+		{% elsif presentation.type == "Featured Talk" %}
+			{% assign num_featured_talks = num_featured_talks | plus: 1 %}
+		{% elsif presentation.type == "Keynote" %}
+			{% assign num_keynotes = num_keynotes | plus: 1 %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+{% assign days = days | uniq %}
+{% assign num_days = days | size %}
+
+
+The following papers have been accepted for publication at {{ site.conference.short_name }} {{ site.conference.year }}:
+
+
+{% if site.data.prg_accepted.full_papers %}
+
+    <h2 class="mt-3">Full papers</h2>
+    <ul>
+    {% for paper in site.data.prg_accepted.full_papers %}
+         <li>{{ paper.authors }}. <strong>{{ paper.title }}</strong></li>
+     {% endfor %}
+     </ul>
+{% endif %}
+
+We will publish a full programme of sessions and talk times closer to the conference.

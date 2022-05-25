@@ -8,6 +8,23 @@
 		{% assign last_modified = paginator.posts[0].date | date_to_long_string: "ordinal" %}
 	{% endif %}
     
+{% elsif page.path contains 'programme/accepted-papers' %}
+
+	{% capture timestamp_date %}{{ "prg_accepted.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
+	{% capture timestamp_rest %}{{ "prg_accepted.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
+
+	{% if timestamp_date == "1" or timestamp_date == "21" or timestamp_date == "31" -%}
+		{% assign suffix = "st" -%}
+	{% elsif timestamp_date == "2" or timestamp_date == "22" -%}
+		{% assign suffix = "nd" -%}
+	{% elsif timestamp_date == "3" or date == "23" -%}
+		{% assign suffix = "rd" -%}
+	{% else -%}
+		{% assign suffix = "th" -%}
+	{% endif -%}
+
+	{% capture last_modified_str %}{{ timestamp_date }}{{ suffix }} {{ timestamp_rest }}{% endcapture %}
+
 {% elsif page.path contains 'organising-committee' %}
 
 	{% capture timestamp_date %}{{ "oc.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
