@@ -58,12 +58,38 @@ menus:
 
 The following papers have been accepted for publication at {{ site.conference.short_name }} {{ site.conference.year }}:
 
-
 {% if site.data.prg_accepted.full_papers %}
-
     <h2 class="mt-3">Full papers</h2>
     <ul>
     {% for paper in site.data.prg_accepted.full_papers %}
+         <li>{{ paper.authors }}. <strong>{{ paper.title }}</strong></li>
+     {% endfor %}
+     </ul>
+{% endif %}
+
+
+{% if site.data.prg_accepted.provocation_papers %}
+    <h2 class="mt-3">Provocation papers</h2>
+    <ul>
+    {% for paper in site.data.prg_accepted.provocation_papers %}
+         <li>{{ paper.authors }}. <strong>{{ paper.title }}</strong></li>
+     {% endfor %}
+     </ul>
+{% endif %}
+
+{% if site.data.prg_accepted.posters %}
+    <h2 class="mt-3">Posters</h2>
+    <ul>
+    {% for paper in site.data.prg_accepted.posters %}
+         <li>{{ paper.authors }}. <strong>{{ paper.title }}</strong></li>
+     {% endfor %}
+     </ul>
+{% endif %}
+
+{% if site.data.prg_accepted.demos %}
+    <h2 class="mt-3">Demos</h2>
+    <ul>
+    {% for paper in site.data.prg_accepted.demos %}
          <li>{{ paper.authors }}. <strong>{{ paper.title }}</strong></li>
      {% endfor %}
      </ul>

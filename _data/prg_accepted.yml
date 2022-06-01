@@ -23,3 +23,65 @@ full_papers:
     title: Effects of Emotional Expressiveness on Voice Chatbot Interactions
   - authors: Samuel Rhys Cox and Wei Tsang Ooi
     title: Does Chatbot Language Formality Affect Users' Self-Disclosure?
+
+provocation_papers:
+  - authors: Elizabeth Stokoe, Saul Albert, Sophie Parslow and Cathy Pearl
+    title: 'Conversation analysis and conversation design: Where the moonshots are'
+  - authors: Helin Cihan, Yunhan Wu, Paola Peña, Justin Edwards and Benjamin Cowan
+    title: 'Bilingual by default: Voice Assistants and the role of code-switching in creating a bilingual user experience'
+  - authors: William Seymour, Mark Coté and Jose Such
+    title: 'When Is Certification Not Worth the Paper It Is Written On: A Provocation on the Certification of Skills in the Alexa and Google Assistant Ecosystems'
+  - authors: Sanju Ahuja and Jyoti Kumar
+    title: "‘Assistant’ or ‘Master’: Envisioning the User Autonomy Implications of Virtual Assistants"
+  - authors: Samuel Kernan Freire, Evangelos Niforatos, Zoltan Rusak, Doris Aschenbrenner and Alessandro Bozzon
+    title: 'A Conversational User Interface for Maintenance Reports: A Wizard of Oz Study'
+  - authors: William Seymour, Mark Coté and Jose Such
+    title: 'Consent on the Fly: Developing Ethical Verbal Consent for Voice Assistants'
+  - authors: James Simpson and Cassandra Crone
+    title: Should Alexa be a Police Officer, a Doctor, or a Priest?
+  - authors: Alain D. Starke and Minha Lee
+    title: Unifying Recommender Systems and Conversational User Interfaces
+  - authors: Amanda Kann
+    title: Voice Assistants Have a Plurilingualism Problem
+  - authors: Thomas Mildner, Philip Doyle, Gian-Luca Savino and Rainer Malaka
+    title: 'Rules Of Engagement: Levelling Up To Combat Unethical CUI Design'
+  - authors: Selina Meyer, David Elsweiler, Bernd Ludwig, Marcos Fernández-Pichel and David E. Losada
+    title: Do we still need Human Assessors? Prompt based GPT-3 User Simulation in Conversational AI
+  - authors: Sophie Becker, Phillip Doyle and Justin Edwards
+    title: Embrace your incompetence! Designing appropriate CUI communication through an ecological approach
+  - authors: Shruti Rao, Valeria Resendez, Abdallah El Ali and Pablo Cesar
+    title: Ethical Self-Disclosing Voice User Interfaces for Delivery of News
+  - authors: Smit Desai and Michael Twidale
+    title: Is Alexa like a computer? A search engine? A friend? A silly child? Yes.
+
+posters:
+  - authors: Robert Bowman, Benjamin R. Cowan, Anja Thieme and Gavin Doherty
+    title: 'Beyond Subservience: Using Joint Commitment to Enable Proactive CUIs for Mood Logging'
+  - authors: Mathyas Giudici, Pietro Crovari and Franca Garzotto
+    title: 'CANDY: towards a framework to design Conversational AgeNts for Domestic sustainabilitY'
+  - authors: Sara Parnell, Stefanie Klein and Franziska Gaiser
+    title: 'Do we know and do we care? Algorithms and Attitude towards Conversational User Interfaces: Comparing Chatbots and Voice Assistants'
+  - authors: Mateusz Dubiel, Sylvain Daronnat and Luis A. Leiva
+    title: 'Conversational Agents Trust Calibration: A User-Centred Perspective to Design'
+  - authors: Anna-Maria Meck, Christoph Draxler and Thurid Vogt
+    title: 'A Question of Fidelity: Comparing Different User Testing Methods for Evaluating In-Car Prompts'
+  - authors: Mary Bispham, Jose Such, Guillermo Suarez-Tangil, Xavier Ferrer-Aran, Suliman Sattar and Clara Zard
+    title: Leakage of Sensitive Information to Third-Party Voice Applications
+  - authors: Zuzanna Janeczko and Mary Ellen Foster
+    title: A Study on Human Interactions With Robots Based on Their Appearance and Behaviour
+  - authors: Juan Carlos Farah, Basile Spaenlehauer, Sandy Ingram and Denis Gillet
+    title: A Blueprint for Integrating Task-Oriented Conversational Agents in Education
+  - authors: Nicolas Wagner, Matthias Kraus, Tibor Tonn and Wolfgang Minker
+    title: Comparing Moderation Strategies in Group Chats with Multi-User Chatbots
+  - authors: Li Chen, Zhirun Zhang, Xinzhi Zhang and Lehong Zhao
+    title: A Pilot Study for Understanding Users’ Attitudes Towards a Conversational Agent for News Recommendation
+  - authors: Marilena Wilhelm, Tabea Otten, Kinga Schumacher and Eva Schwaetzer
+    title: 'Keep on Smiling: An Investigation of the Influence of the Use of Emoticons by Chatbots on User Satisfaction'
+  - authors: Roderick Tabalba, Abari Bhatacharya, Veronica Grosso, Nurit Kirshenbaum, Andy Johnson, Barbara Di Eugenio, Moira Zellner and Jason Leigh
+    title: 'Articulate+ : An Always-Listening Natural Language Interface for Creating Data Visualizations'
+
+demos:
+  - authors: Michelle Xiao-Lin Foo, Luca Della Libera and Ilhan Aslan
+    title: 'Papr Readr Bot: A Conversational Agent to Read Research Papers'
+  - authors: Heloisa Candello, Marcelo Grave, Emilio Brazil, Marina Ito, Adinan Alves de Brito Filho and Rogerio de Paula
+    title: How can AI leverage alternative criteria and suggest a better way to measure credit worthiness and economic growth?
