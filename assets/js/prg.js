@@ -79,9 +79,9 @@ $(function() {
 						}
 						html += '</div></li>';
 					} else if (session_id == sessions.length-1) {
-						html += '<li class="media p-3 bg-lightest border-bottom rounded-0" id="session-' + index + '"><div class="media-body text-center text-muted">';
-						html += 'Please see the next day\'s schedule as events may start soon after midnight';
-						html += '</div></li>';
+            // html += '<li class="media p-3 bg-lightest border-bottom rounded-0" id="session-' + index + '"><div class="media-body text-center text-muted">';
+            // html += 'Please see the next day\'s schedule as events may start soon after midnight';
+            // html += '</div></li>';
 					}
 				} else if (session['type'] == 'EOD') {
 					if (session_id > 0 && session_id < sessions.length-1) {
@@ -173,9 +173,9 @@ $(function() {
 					html +'</div></li>';
 
 					if (session_id == sessions.length-1 && global_session_id < num_sessions) {
-						html += '<li class="media p-3 bg-lightest border-bottom rounded-0" id="session-' + index + '"><div class="media-body text-center text-muted">';
-						html += 'Please see the next day\'s schedule as events may start soon after midnight';
-						html += '</div></li>';
+            // html += '<li class="media p-3 bg-lightest border-bottom rounded-0" id="session-' + index + '"><div class="media-body text-center text-muted">';
+            // html += 'Please see the next day\'s schedule as events may start soon after midnight';
+            // html += '</div></li>';
 					}
 				}
 
