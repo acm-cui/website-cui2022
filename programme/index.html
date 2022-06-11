@@ -1,0 +1,234 @@
+---
+label: Programme
+title: Programme
+redirect_from:
+  - /program/
+layout: default
+description: The online programme for the !!conference.year!! !!conference.full_name!! conference.
+
+<!-- menus:
+  programme:
+    title: Programme
+    alt: The online programme for the !!conference.year!! !!conference.full_name!! conference
+    weight: 0 -->
+---
+
+{% assign num_sessions = site.data.prg_sessions | size %}
+{% assign num_keynotes = 0 %}
+{% assign num_full_papers = 0 %}
+{% assign num_provocation_papers = 0 %}
+{% assign num_panels = 0 %}
+{% assign num_demos = 0 %}
+{% assign num_posters = 0 %}
+{% assign num_featured_talks = 0 %}
+
+{% assign sorted_sessions = site.data.prg_sessions | sort: "start_time" %}
+{% assign days = "" | split: ',' %}
+{% for session in sorted_sessions %}
+	{% assign day = session.start_time | date: "%-d %B %Y" %}
+	{% assign days = days | push: day %}
+
+	{% if session.type == 'EOD' %}
+	{% assign num_sessions = num_sessions | plus: -1 %}
+	{% elsif session.type == 'Break' %}
+	{% assign num_sessions = num_sessions | plus: -1 %}
+	{% endif %}
+
+	{% for presentation in site.data.prg_presentations[session.id]
+	 %}
+		{% if presentation.type == "Full Paper" %}
+			{% assign num_full_papers = num_full_papers | plus: 1 %}
+		{% elsif presentation.type == "Provocation Paper" %}
+			{% assign num_provocation_papers = num_provocation_papers | plus: 1 %}
+		{% elsif presentation.type == "Panel" %}
+			{% assign num_panels = num_panels | plus: 1 %}
+		{% elsif presentation.type == "Demo" %}
+			{% assign num_demos = num_demos | plus: 1 %}
+		{% elsif presentation.type == "Poster" %}
+			{% assign num_posters = num_posters | plus: 1 %}
+		{% elsif presentation.type == "Featured Talk" %}
+			{% assign num_featured_talks = num_featured_talks | plus: 1 %}
+		{% elsif presentation.type == "Keynote" %}
+			{% assign num_keynotes = num_keynotes | plus: 1 %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+{% assign days = days | uniq %}
+{% assign num_days = days | size %}
+
+
+<section class="main-body main-singleton">
+
+	<div class="main-title row py-4">
+		<div class="col-md-4 col-12 text-md-left text-center">
+			<h1 class="m-0 p-0">{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}</h1>
+		</div>
+	</div>
+	<div class="main-content">
+		<article>
+			<p class="d-none">Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}, {{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}, {{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}.</p>
+			<p class="text-center">The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>.<!-- Add the <a href="{{ "/programme/ics/all.ics" | relative_url }}" title="Download all {{ site.conference.short_name }} {{ site.conference.year }} sessions as an ICS file">programme to your calendar</a>.--></p>
+
+			<div class="w-100 text-center">
+				<div class="text-center" id="programmeTabs" style="margin: 0 auto"></div>
+			</div>
+			<noscript>
+				<div class="prg" id="programmeNS">
+				{% for day in days %}
+					<div class="card mb-3">
+						<div class="card-header bg-dark" id="programmeNSDay{{ forloop.index0 }}">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-white font-weight-bold text-decoration-none" type="button" id="dayNS{{ forloop.index0 }}">
+									{% assign date = day | truncate: 2, '' %}
+									{% assign date = date | strip %}
+									{%- if date == "1" or date == "21" or date == "31" -%}
+										{%- assign suffix = "st" -%}
+									{%- elsif date == "2" or date == "22" -%}
+										{%- assign suffix = "nd" -%}
+									{%- elsif date == "3" or date == "23" -%}
+										{%- assign suffix = "rd" -%}
+									{%- else -%}
+										{%- assign suffix = "th" -%}
+									{%- endif -%}
+									{% assign rest = day | slice: 2, 100 %}
+									{{ date }}{{ suffix }} {{ rest }}
+								</button>
+							</h2>
+						</div>
+						<div id="programmeNS{{ forloop.index0 }}" class="collapse show" aria-labelledby="programmeNSDay{{ forloop.index0 }}" data-parent="#programmeNS">
+							<ul class="list-unstyled prg-day mb-0 border-0 rounded-0">
+							{%- for session in site.data.prg_sessions %}
+								{% assign temp_day = session.start_time | date: "%-d %B %Y" %}
+								{% if temp_day != day %}
+									{% continue %}
+								{% endif %}
+					
+								{% if session.type == "EOD" %}
+								{% elsif session.type == "Break" %}
+								<li class="media p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}">
+									<div class="media-body text-center text-muted">
+										{% if session.description %}
+										{{ session.description }}
+										{% endif %}
+									</div>
+								</li>
+								{% else %}
+								<li class="media prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}">
+									<div class="mr-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
+										<div class="text-capitalize mb-md-2 mr-3"><span class="badge badge-primary">{{ session.type }}</span></div>
+										<div class="mb-md-1 mr-md-0 mr-3 small">
+											<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start mr-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ session.start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ session.start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ session.start_time | date: "%H:%M" }}</span>
+										</div>
+										<div class="mt-md-1 small">
+											<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ session.end_time | date: "%FT%T.000Z" }}"><span></span>{{ session.end_time | date: "%H:%M" }}</span>
+										</div>
+									</div>
+									<div class="media-body w-100">
+										<div class="float-right d-flex flex-row mt-md-0 mt-1 ml-1">
+											{% if session.info %}
+											{% unless session.subtitle %}
+											<a href="{{ session.info }}" title="Read more about this session" class="d-block prg-icon-info-sm mr-2">
+												<span class="sr-only">Read more about this session</span>
+											</a>
+											{% endunless  %}
+											{% endif %}
+											{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
+											<a href="{{ calendar_url | absolute_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal mr-2">
+												<span class="sr-only">iCalendar (ICS) file for this session</span>
+											</a>
+											{% capture session_url %}/programme/link/{{ session.id }}{% endcapture %}
+											<a href="{{ session_url | absolute_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
+												<span class="sr-only">Permalink to this session</span>
+											</a>
+										</div>
+										<h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
+										{% if session.presenters %}
+										{{ session.presenters }}
+										{% endif %}
+										{% if session.chairs %}
+										<em class="small">Chaired by {{ session.chairs }}</em>
+										{% endif %}
+										{% if session.subtitle %}
+										<h5 class="text-center mt-3">
+										{{ session.subtitle }}
+										{% if session.info %}
+										<a href="{{ session.info }}" title="Read more about this session" class="d-inline-block prg-icon-info-sm ml-2 align-down-small-icon">
+											<span class="sr-only">Read more about this session</span>
+										</a>
+										{% endif %}
+										</h5>
+										{% endif %}
+
+										{% assign presentations = site.data.prg_presentations[session.id] %}
+										{% if presentations.size > 0 %}
+										<ol class="list-group mt-3">
+										{%- for presentation in site.data.prg_presentations[session.id] %}
+											<li class="list-group-item pb-3">
+												{% if presentation.aaai %}
+												<div class="float-right">
+													<a href="{{ presentation.aaai }}" title="View the paper on the AAAI website" class="d-block prg-inner-icon prg-icon-aaai">
+														<span class="sr-only">View paper on the AAAI website</span>
+													</a>
+												</div>
+												{% endif %}
+												{% if presentation.acmdl %}
+												<div class="float-right">
+													<a href="{{ presentation.acmdl }}" title="View the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
+														<span class="sr-only">View paper in the ACM Digital Library</span>
+													</a>
+												</div>
+												{% endif %}
+												{% if presentation.sagepub %}
+												<div class="float-right">
+													<a href="{{ presentation.sagepub }}" title="View the paper on Sage Publishing's website" class="d-block prg-inner-icon prg-icon-sagepub">
+														<span class="sr-only">View paper on Sage Publishing's website</span>
+													</a>
+												</div>
+												{% endif %}
+												{% if presentation.springerlink %}
+												<div class="float-right">
+													<a href="{{ presentation.springerlink }}" title="View the paper on Springer's website" class="d-block prg-inner-icon prg-icon-springerlink">
+														<span class="sr-only">View paper on Springer's website</span>
+													</a>
+												</div>
+												{% endif %}
+												{% if presentation.info %}
+												<div class="float-right">
+													<a href="{{ presentation.info }}" title="Read more about this presentation" class="d-block prg-inner-icon prg-icon-info">
+														<span class="sr-only">Read more about this presentation</span>
+													</a>
+												</div>
+												{% endif %}
+												<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
+
+												{{ presentation.authors }}
+
+												{% if presentation.preview %}
+												<br><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a>
+												{% endif %}
+
+												{% if presentation.award %}
+												<br><br>🏆 {{ presentation.award }}
+												{% endif %}
+											</li>
+										{%- endfor -%}
+										</ol>
+										{% endif %}
+			  
+									</div>
+								</li>
+								{% endif %}
+							{%- endfor -%}
+							</ul>
+						</div>
+					</div>
+				{% endfor %}
+				</div>
+			</noscript>
+
+			<div class="prg" id="programme">
+			</div>
+		</article>
+	</div>
+	
+</section>
