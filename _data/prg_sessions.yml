@@ -11,7 +11,7 @@
 - id: doctoral_1
   type: Doctoral
   title: Doctoral event
-  description: This SIG will feature practical demonstrations of tools that allow us to use CUIs as entertainers such as large language models like GPT-3, Hidden Markov Models like those used by Botnik’s Voicebox keyboards, and the voice puppetry technology made by CereProc. This event will introduce these tools to participants and give everyone a chance to play around with them on their own, showcasing the creative and entertaining outputs they leverage from CUIs.
+  description: "This event will facilitate doctoral researchers networking and research dissemination through interactive sessions facilitated by more established researchers in the field. During the event we will have:<br><ul><li>Roundtable discussions</li><li>Lightning researcher talks</li><li>Panel</li></ul>"
   start_time: 2022-07-26T08:00:00.000Z
   end_time: 2022-07-26T11:30:00.000Z
 
@@ -31,7 +31,7 @@
   type: SIG
   title: CUIs as Entertainers
   chairs: Justin Edwards, Leigh Clark, Matthew Aylett, and Allison Perrone
-  description: "This event will facilitate doctoral researchers networking and research dissemination through interactive sessions facilitated by more established researchers in the field. During the event we will have:<br><ul><li>Roundtable discussions</li><li>Lightning researcher talks</li><li>Panel</li></ul>"
+  description: This SIG will feature practical demonstrations of tools that allow us to use CUIs as entertainers such as large language models like GPT-3, Hidden Markov Models like those used by Botnik’s Voicebox keyboards, and the voice puppetry technology made by CereProc. This event will introduce these tools to participants and give everyone a chance to play around with them on their own, showcasing the creative and entertaining outputs they leverage from CUIs.
   start_time: 2022-07-26T13:00:00.000Z
   end_time: 2022-07-26T16:30:00.000Z
 
