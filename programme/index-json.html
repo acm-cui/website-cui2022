@@ -14,6 +14,8 @@ layout: none
         "chairs": "{{ session.chairs }}",
         "start_time": "{{ session.start_time | date: "%FT%T.000Z"  }}",
         "end_time": "{{ session.end_time | date: "%FT%T.000Z"  }}",
+        {% if session.location != nil -%}"location": "{{ session.location }}",{% endif -%}
+        {% if session.location_link != nil -%}"location_link": "{{ session.location_link }}",{% endif -%}
         {% if session.info != nil -%}"info": "{{ session.info }}",{% endif -%}
         {% if session.subtitle != nil -%}"subtitle": "{{ session.subtitle }}",{% endif -%}
         "presentations": [

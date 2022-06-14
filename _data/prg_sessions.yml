@@ -8,57 +8,52 @@
 #   end_time:
 
 
-- id: doctoral_part_1
+- id: doctoral_1
   type: Doctoral
   title: Doctoral event
-  description: Details on attending this event will be available soon
+  description: This SIG will feature practical demonstrations of tools that allow us to use CUIs as entertainers such as large language models like GPT-3, Hidden Markov Models like those used by Botnik’s Voicebox keyboards, and the voice puppetry technology made by CereProc. This event will introduce these tools to participants and give everyone a chance to play around with them on their own, showcasing the creative and entertaining outputs they leverage from CUIs.
   start_time: 2022-07-26T08:00:00.000Z
-  end_time: 2022-07-26T09:30:00.000Z
+  end_time: 2022-07-26T11:30:00.000Z
 
 - id: break_tuesday_am
-  type: Break
-  description: Refreshment break
+  type: Innerbreak
+  description: Refreshment break (####)
   start_time: 2022-07-26T09:30:00.000Z
   end_time: 2022-07-26T10:00:00.000Z
 
-- id: doctoral_part_2
-  type: Doctoral
-  title: Doctoral event (continued)
-  description: Details on attending this event will be available soon
-  start_time: 2022-07-26T10:00:00.000Z
-  end_time: 2022-07-26T11:30:00.000Z
-
 - id: lunch_tuesday
   type: Break
-  description: Lunch break
+  description: Lunch break (####)
   start_time: 2022-07-26T11:30:00.000Z
   end_time: 2022-07-26T13:00:00.000Z
 
-- id: sig_part_1
+- id: sig_1
   type: SIG
   title: CUIs as Entertainers
   chairs: Justin Edwards, Leigh Clark, Matthew Aylett, and Allison Perrone
+  description: "This event will facilitate doctoral researchers networking and research dissemination through interactive sessions facilitated by more established researchers in the field. During the event we will have:<br><ul><li>Roundtable discussions</li><li>Lightning researcher talks</li><li>Panel</li></ul>"
   start_time: 2022-07-26T13:00:00.000Z
-  end_time: 2022-07-26T14:30:00.000Z
+  end_time: 2022-07-26T16:30:00.000Z
 
 - id: break_tuesday_pm
-  type: Break
-  description: Refreshment break
+  type: Innerbreak
+  description: Refreshment break (####)
   start_time: 2022-07-26T14:30:00.000Z
   end_time: 2022-07-26T15:00:00.000Z
-
-- id: sig_part_2
-  type: SIG
-  title: CUIs as Entertainers (continued)
-  chairs: Justin Edwards, Leigh Clark, Matthew Aylett, and Allison Perrone
-  start_time: 2022-07-26T15:00:00.000Z
-  end_time: 2022-07-26T16:30:00.000Z
 
 - id: reception
   type: Reception
   title: Welcome Reception
-  location: Glasgow City Chambers
+  location: City Chambers
+  location_link: https://goo.gl/maps/Rx2z9KF5utejPMzc8
+  description: The city of Glasgow are offering a welcome reception at the Glasgow City Chambers to CUI attendees, family and friends; where we will be welcomed by on the cities bailies.
   start_time: 2022-07-26T18:00:00.000Z
+  end_time: 2022-07-26T21:00:00.000Z
+
+- id: eod_tuesday
+  type: EOD
+  description: The main conference starts tomorrow
+  start_time: 2022-07-26T21:00:00.000Z
   end_time: 2022-07-26T21:00:00.000Z
 
 
@@ -69,12 +64,13 @@
   type: Plenary
   title: 'Welcome & Keynote 1'
   chairs: Martin Halvey, Mary Ellen Foster and Jeff Dalton (CUI 2022 General Chairs)
+  description: The CUI 2022 General Chairs will open the conference before introducing the first conference keynote.
   start_time: 2022-07-27T08:00:00.000Z
   end_time: 2022-07-27T09:30:00.000Z
 
 - id: break_wednesday_am
   type: Break
-  description: Refreshment break
+  description: Refreshment break (####)
   start_time: 2022-07-27T09:30:00.000Z
   end_time: 2022-07-27T10:00:00.000Z
 
@@ -86,7 +82,7 @@
 
 - id: lunch_wednesday
   type: Break
-  description: Lunch break
+  description: Lunch break (####)
   start_time: 2022-07-27T11:30:00.000Z
   end_time: 2022-07-27T13:00:00.000Z
 
@@ -98,7 +94,7 @@
 
 - id: break_wednesday_pm
   type: Break
-  description: Refreshment break
+  description: Refreshment break (####)
   start_time: 2022-07-27T14:30:00.000Z
   end_time: 2022-07-27T15:00:00.000Z
 
@@ -111,8 +107,16 @@
 - id: dinner
   type: reception
   title: Conference Dinner
-  location: "Sloan’s"
+  location: "Sloans"
+  location_link: https://www.sloansglasgow.com
+  description: A Glasgow landmark, Sloans is situated in Glasgow’s City Centre and is a short walk from the conference venue. Set over 3 floors, we will be based on one floor for a 3 course meal with drinks followed by a traditional Scottish ceilidh.
   start_time: 2022-07-27T18:00:00.000Z
+  end_time: 2022-07-27T22:00:00.000Z
+
+- id: eod_wednesday
+  type: EOD
+  description: The conference resumes tomorrow
+  start_time: 2022-07-27T22:00:00.000Z
   end_time: 2022-07-27T22:00:00.000Z
 
 
@@ -121,12 +125,13 @@
 - id: plenary_2
   type: Plenary
   title: 'Town Hall & Keynote 2'
+  description: We will have a Town Hall chaired by the CUI Steering Committee, discussing the future of the conference series and CUI 2023. Following this, we will have the second conference keynote.
   start_time: 2022-07-28T08:00:00.000Z
   end_time: 2022-07-28T09:30:00.000Z
 
 - id: break_thursday_am
   type: Break
-  description: Refreshment break
+  description: Refreshment break (####)
   start_time: 2022-07-28T09:30:00.000Z
   end_time: 2022-07-28T10:00:00.000Z
 
@@ -138,7 +143,7 @@
 
 - id: lunch_thursday
   type: Break
-  description: Lunch break
+  description: Lunch break (####)
   start_time: 2022-07-28T11:30:00.000Z
   end_time: 2022-07-28T13:00:00.000Z
 
@@ -150,7 +155,7 @@
 
 - id: break_thursday_pm
   type: Break
-  description: Refreshment break
+  description: Refreshment break (####)
   start_time: 2022-07-28T14:30:00.000Z
   end_time: 2022-07-28T15:00:00.000Z
 

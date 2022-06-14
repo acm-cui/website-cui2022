@@ -61,7 +61,7 @@ menus:
 
 ----
 
-## Dinner Venue: Sloan’s on Wednesday July 27th 
+## Dinner Venue: Sloans on Wednesday July 27th 
 
 A Glasgow landmark, Sloans is situated in Glasgow's City Centre and is a short walk from the conference venue. Set over 3 floors, we will be based on one floor for a 3 course meal with drinks followed by a traditional Scottish ceilidh. Find out more [about Sloans on their website](https://www.sloansglasgow.com/ "Sloans Glasgow website").
 

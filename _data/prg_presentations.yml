@@ -1,4 +1,17 @@
 
+plenary_1:
+ - id: keynote_1
+   type: Keynote
+   title: Information coming soon
+   authors: TBC
+   
+
+plenary_2:
+ - id: keynote_2
+   type: Keynote
+   title: Information coming soon
+   authors: TBC
+
 papers_1:
  - id: fp_1
    type: Full Paper
@@ -135,3 +148,61 @@ papers_5:
    title: 'Rules Of Engagement: Levelling Up To Combat Unethical CUI Design'
    authors: Thomas Mildner, Philip Doyle, Gian-Luca Savino and Rainer Malaka
 
+posters_demos:
+  - id: poster_1
+    type: Poster
+    authors: Robert Bowman, Benjamin R. Cowan, Anja Thieme and Gavin Doherty
+    title: 'Beyond Subservience: Using Joint Commitment to Enable Proactive CUIs for Mood Logging'
+  - id: poster_2
+    type: Poster
+    authors: Mathyas Giudici, Pietro Crovari and Franca Garzotto
+    title: 'CANDY: towards a framework to design Conversational AgeNts for Domestic sustainabilitY'
+  - id: poster_3
+    type: Poster
+    authors: Sara Parnell, Stefanie Klein and Franziska Gaiser
+    title: 'Do we know and do we care? Algorithms and Attitude towards Conversational User Interfaces: Comparing Chatbots and Voice Assistants'
+  - id: poster_4
+    type: Poster
+    authors: Mateusz Dubiel, Sylvain Daronnat and Luis A. Leiva
+    title: 'Conversational Agents Trust Calibration: A User-Centred Perspective to Design'
+  - id: poster_5
+    type: Poster
+    authors: Anna-Maria Meck, Christoph Draxler and Thurid Vogt
+    title: 'A Question of Fidelity: Comparing Different User Testing Methods for Evaluating In-Car Prompts'
+  - id: poster_6
+    type: Poster
+    authors: Mary Bispham, Jose Such, Guillermo Suarez-Tangil, Xavier Ferrer-Aran, Suliman Sattar and Clara Zard
+    title: Leakage of Sensitive Information to Third-Party Voice Applications
+  - id: poster_7
+    type: Poster
+    authors: Zuzanna Janeczko and Mary Ellen Foster
+    title: A Study on Human Interactions With Robots Based on Their Appearance and Behaviour
+  - id: poster_8
+    type: Poster
+    authors: Juan Carlos Farah, Basile Spaenlehauer, Sandy Ingram and Denis Gillet
+    title: A Blueprint for Integrating Task-Oriented Conversational Agents in Education
+  - id: poster_9
+    type: Poster
+    authors: Nicolas Wagner, Matthias Kraus, Tibor Tonn and Wolfgang Minker
+    title: Comparing Moderation Strategies in Group Chats with Multi-User Chatbots
+  - id: poster_10
+    type: Poster
+    authors: Li Chen, Zhirun Zhang, Xinzhi Zhang and Lehong Zhao
+    title: A Pilot Study for Understanding Users’ Attitudes Towards a Conversational Agent for News Recommendation
+  - id: poster_11
+    type: Poster
+    authors: Marilena Wilhelm, Tabea Otten, Kinga Schumacher and Eva Schwaetzer
+    title: 'Keep on Smiling: An Investigation of the Influence of the Use of Emoticons by Chatbots on User Satisfaction'
+  - id: poster_12
+    type: Poster
+    authors: Roderick Tabalba, Abari Bhatacharya, Veronica Grosso, Nurit Kirshenbaum, Andy Johnson, Barbara Di Eugenio, Moira Zellner and Jason Leigh
+    title: 'Articulate+ : An Always-Listening Natural Language Interface for Creating Data Visualizations'
+
+  - id: demo_1
+    type: Demo
+    authors: Michelle Xiao-Lin Foo, Luca Della Libera and Ilhan Aslan
+    title: 'Papr Readr Bot: A Conversational Agent to Read Research Papers'
+  - id: demo_2
+    type: Demo
+    authors: Heloisa Candello, Marcelo Grave, Emilio Brazil, Marina Ito, Adinan Alves de Brito Filho and Rogerio de Paula
+    title: How can AI leverage alternative criteria and suggest a better way to measure credit worthiness and economic growth?
