@@ -11,7 +11,7 @@ NAME:{{ site.url }}{{ site.baseurl }}{{ page.url }}
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 CALSCALE:GREGORIAN
 
-{%- for session in site.data.prg_sessions %}{% if session.type == "EOD" %}{% elsif session.type == "Break" %}{% else %}
+{%- for session in site.data.prg_sessions %}{% if session.type == "EOD" %}{% elsif session.type == "Break" %}{% elsif session.type == "Innerbreak" %}{% else %}
 BEGIN:VEVENT
 DTSTAMP:{{ "now" | date: "%Y%m%dT%H%M00" }}Z
 UID:{{ session.start_time | date: "%Y%m%dT%H%M00" }}Z@2021.conversationaluserinterfaces.org
@@ -19,7 +19,7 @@ DTSTART:{{ session.start_time | date: "%Y%m%dT%H%M00" }}Z
 DTEND:{{ session.end_time | date: "%Y%m%dT%H%M00" }}Z
 SUMMARY:{{ site.conference.short_name }} {{ site.conference.year }}: {{ session.title | escape }}
 DESCRIPTION:{% if session.description != nil -%}{{ session.description | strip_html }}\n\n{% endif %}{% if session.presenters != nil -%}{{ session.presenters | replace: "<br>", "\n" | replace: "<em>", "*" | replace: "</em>", "*" | strip_html }}\n\n{% endif %}{% if session.chairs != nil -%}Chaired by{{ session.chairs }}\n\n{% endif %}Please see {{ site.url }}{{ site.baseurl }}/programme/link/{{ session.id }} for more detailed session information.
-LOCATION:{{ session.location }}
+LOCATION:{% if session.location_address != nil %}{{ session.location_address | replace: ",", "\," }}{% else %}{{ session.location }}{% endif %}
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 END:VEVENT

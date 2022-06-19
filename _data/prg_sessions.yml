@@ -46,6 +46,7 @@
   title: Welcome Reception
   location: City Chambers
   location_link: https://goo.gl/maps/Rx2z9KF5utejPMzc8
+  location_address: 'City Chambers, George Square, Glasgow, Strathclyde, G2 1DU'
   description: The city of Glasgow are offering a welcome reception at the Glasgow City Chambers to CUI attendees, family and friends; where we will be welcomed by on the cities bailies.
   start_time: 2022-07-26T18:00:00.000Z
   end_time: 2022-07-26T21:00:00.000Z
@@ -109,6 +110,7 @@
   title: Conference Dinner
   location: "Sloans"
   location_link: https://www.sloansglasgow.com
+  location_address: 'Sloans, 108 Argyle Street, Glasgow, Strathclyde, G2 8BG'
   description: A Glasgow landmark, Sloans is situated in Glasgow’s City Centre and is a short walk from the conference venue. Set over 3 floors, we will be based on one floor for a 3 course meal with drinks followed by a traditional Scottish ceilidh.
   start_time: 2022-07-27T18:00:00.000Z
   end_time: 2022-07-27T22:00:00.000Z
