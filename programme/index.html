@@ -140,7 +140,7 @@ description: The online programme for the !!conference.year!! !!conference.full_
                                             <span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ session.end_time | date: "%FT%T.000Z" }}"><span></span>{{ end_time | date: "%H:%M" }}</span>
                                         </div>
                                         {% if session.location %}
-                                        <div class="mt-md-2 small text-secondary">
+                                        <div class="mt-md-2 small text-secondary ml-md-0 ml-sm-3 d-sm-block d-none">
                                             <span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location mr-2"></span><span class="d-inline-block prg-text-timing">
                                             {% if session.location_link %}
                                                 <a href="{{ session.location_link }}" title="Link to {{ session.location }}" class="text-secondary">{{ session.location }}</a>
@@ -169,6 +169,16 @@ description: The online programme for the !!conference.year!! !!conference.full_
                                             </a>
                                         </div>
                                         <h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
+                                        {% if session.location %}
+                                        <div class="my-2 d-sm-none d-block">
+                                            <span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location mr-2"></span><span class="d-inline-block prg-text-timing">
+                                            {% if session.location_link %}
+                                                <a href="{{ session.location_link }}" title="Link to {{ session.location }}" class="text-secondary">{{ session.location }}</a>
+                                            {% else %}
+                                                {{ session.location }}
+                                            {% endif %}</span>
+                                        </div>
+                                        {% endif %}
                                         {% if session.presenters %}
                                         {{ session.presenters }}
                                         {% endif %}

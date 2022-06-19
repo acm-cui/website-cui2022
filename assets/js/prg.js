@@ -97,7 +97,7 @@ $(function() {
                     html += '</div>';
 
                     if (session['location'] != undefined) {
-                        html += '<div class="mt-md-2 small text-secondary"><span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location mr-2"></span><span class="d-inline-block prg-text-timing">';
+                        html += '<div class="mt-md-2 small text-secondary ml-md-0 ml-sm-3 d-sm-block d-none"><span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location mr-2"></span><span class="d-inline-block prg-text-timing">';
                         if (session['location_link']) {
                             html += '<a href="' + session['location_link'] +'" title="Link to ' + session['location'] + '" class="text-secondary">' + session['location'] + '</a>';
                         } else {
@@ -116,6 +116,16 @@ $(function() {
                     html += '<a href="https://' + window.location.hostname + window.location.pathname + 'link/' + session['id'] + '" title="Get the permanent link to this session in the programme"" class="d-block prg-icon-link"><span class="sr-only">Permalink to this session</span></a>';
                     html += '</div>';
                     html += '<h4 class="text-primary mt-0 mb-1">' + session['title'] + '</h4>';
+                    
+                    if (session['location'] != undefined) {
+                        html += '<div class="my-2 d-sm-none d-block"><span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location mr-2"></span><span class="d-inline-block prg-text-timing">';
+                        if (session['location_link']) {
+                            html += '<a href="' + session['location_link'] +'" title="Link to ' + session['location'] + '" class="text-secondary">' + session['location'] + '</a>';
+                        } else {
+                            html += session['location'];
+                        }
+                        html += '</span></div>';
+                    }
                     
                     if (session['presenters'] != '') {
                         html += session['presenters'];
