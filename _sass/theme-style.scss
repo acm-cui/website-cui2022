@@ -386,3 +386,11 @@ table.registration-rates {
 	}
 }
 
+blockquote {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: valid-radius($border-radius);
+  
+  & > *:last-child {margin-bottom: 0;}
+}
+

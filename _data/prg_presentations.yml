@@ -2,15 +2,16 @@
 plenary_1:
  - id: keynote_1
    type: Keynote
-   title: Information coming soon
-   authors: TBC
-   
+   title: 'Style matters: Insights for conversational user interfaces from sociolinguistic theory Socially-Aware Conversational Interfaces: Challenges and Perspectives'
+   authors: Jane Stuart-Smith
+   info: '/2022/programme/keynotes/#style-matters-insights-for-conversational-user-interfaces-from-sociolinguistic-theory--socially-aware-conversational-interfaces-challenges-and-perspectives'
 
 plenary_2:
  - id: keynote_2
    type: Keynote
-   title: Information coming soon
-   authors: TBC
+   title: 'What insights from conversation analysis can, should, and should not be leveraged when collaborating in conversation design?'
+   authors: Cathy Pearl, Saul Albert and Elizabeth Stokoe
+   info: '/2022/programme/keynotes/#what-insights-from-conversation-analysis-can-should-and-should-not-be-leveraged-when-collaborating-in-conversation-design'
 
 papers_1:
  - id: fp_1
