@@ -12,6 +12,11 @@ menus:
 
 {{ site.conference.short_name }} {{ site.conference.year }} will be at the University of Strathclyde, in the city of Glasgow. The conference will take place primarily in the Technology Innovation Centre, with the reception and dinner taking place at magnificient city centre locations.
 
+## Conference Venue: Advanced Research Centre (ARC), University of Glasgow on July 26
+
+The ARC, the Advanced Research Centre, is intended to be the creative and collaborative heart of research at the University of Glasgow. The ground floor of the ARC is open to the general public to showcase the excitement and relevance of the University’s research. It also offers a mix of multi-purpose spaces for events and conferences, as well as team building and networking activity and public engagement. For CUI 2022 we will be using some of these spaces for our doctoral event and special interest groups.
+
+
 ## Conference Venue: Technology Innovation Centre
 
 <div class="row">
