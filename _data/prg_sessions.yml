@@ -11,7 +11,7 @@
 - id: doctoral_1
   type: Doctoral
   title: Doctoral event
-  description: "This event will facilitate doctoral researchers networking and research dissemination through interactive sessions facilitated by more established researchers in the field. During the event we will have:<br><ul><li>Roundtable discussions</li><li>Lightning researcher talks</li><li>Panel</li></ul>"
+  description: "This event will facilitate doctoral researchers networking and research dissemination through interactive sessions facilitated by more established researchers in the field. During the event we will have:<br><ul><li>Roundtable discussions</li><li>Lightning researcher talks</li><li>Panel</li></ul><br>Joining information has been emailed to registered attendees."
   start_time: 2022-07-26T08:00:00.000Z
   end_time: 2022-07-26T11:30:00.000Z
   location: Uni. of Glasgow
@@ -35,7 +35,7 @@
   type: SIG
   title: CUIs as Entertainers
   chairs: Justin Edwards, Leigh Clark, Matthew Aylett, and Allison Perrone
-  description: This SIG will feature practical demonstrations of tools that allow us to use CUIs as entertainers such as large language models like GPT-3, Hidden Markov Models like those used by Botnik’s Voicebox keyboards, and the voice puppetry technology made by CereProc. This event will introduce these tools to participants and give everyone a chance to play around with them on their own, showcasing the creative and entertaining outputs they leverage from CUIs.
+  description: This SIG will feature practical demonstrations of tools that allow us to use CUIs as entertainers such as large language models like GPT-3, Hidden Markov Models like those used by Botnik’s Voicebox keyboards, and the voice puppetry technology made by CereProc. This event will introduce these tools to participants and give everyone a chance to play around with them on their own, showcasing the creative and entertaining outputs they leverage from CUIs.<br><br>Joining information has been emailed to registered attendees.
   start_time: 2022-07-26T13:00:00.000Z
   end_time: 2022-07-26T16:30:00.000Z
   location: Uni. of Glasgow
@@ -69,7 +69,7 @@
 
 - id: plenary_1
   type: Plenary
-  title: 'Welcome & Keynote 1'
+  title: 'Welcome and Keynote 1'
   chairs: Martin Halvey, Mary Ellen Foster and Jeff Dalton (CUI 2022 General Chairs)
   description: The CUI 2022 General Chairs will open the conference before introducing the first conference keynote.
   start_time: 2022-07-27T08:00:00.000Z
@@ -95,7 +95,7 @@
 
 - id: papers_2
   type: Papers
-  title: 'Paper Session 2 & Poster Boaster'
+  title: 'Paper Session 2 and Poster Boaster'
   start_time: 2022-07-27T13:00:00.000Z
   end_time: 2022-07-27T14:30:00.000Z
 
@@ -107,7 +107,7 @@
 
 - id: posters_demos
   type: Posters
-  title: 'Posters & Demos' 
+  title: 'Posters and Demos' 
   start_time: 2022-07-27T15:00:00.000Z
   end_time: 2022-07-27T16:30:00.000Z
 
@@ -132,7 +132,7 @@
 
 - id: plenary_2
   type: Plenary
-  title: 'Town Hall & Keynote 2'
+  title: 'Town Hall and Keynote 2'
   description: We will have a Town Hall chaired by the CUI Steering Committee, discussing the future of the conference series and CUI 2023. Following this, we will have the second conference keynote.
   start_time: 2022-07-28T08:00:00.000Z
   end_time: 2022-07-28T09:30:00.000Z
