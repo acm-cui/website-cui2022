@@ -100,6 +100,11 @@ papers_3:
      text: Watch a preview on YouTube
      link: https://www.youtube.com/watch?v=qEzPW3HX0ms&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=2
 
+ - id: ex_1
+   type: Provocation Paper
+   title: 'COMEX: A Multi-task Benchmark for Knowledge-grounded COnversational Media EXploration'
+   aythors: Zay Yar Tun, Alessandro Speggiorin, Jeffrey Dalton and Megan Stamper
+
  - id: pp_6
    type: Provocation Paper
    title: 'Bilingual by default: Voice Assistants and the role of code-switching in creating a bilingual user experience'
