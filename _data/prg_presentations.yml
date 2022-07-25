@@ -18,47 +18,74 @@ papers_1:
    type: Full Paper
    title: Does Chatbot Language Formality Affect Users' Self-Disclosure?
    authors: Samuel Rhys Cox and Wei Tsang Ooi
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=q2Cq2TxY6Z8&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=6
 
  - id: fp_2
    type: Full Paper
    title: 'Extending Chatbots to Probe Users: Enhancing Complex Decision-Making Through Probing Conversations'
    authors: Leon Reicherts, Gun Woo Park and Yvonne Rogers
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=kdbmks0GvXU&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=8
 
  - id: fp_3
    type: Full Paper
    title: 'Understanding Circumstances for Desirable Proactive Behaviour of Voice Assistants: The Proactivity Dilemm'
    authors: Nima Zargham, Leon Reicherts, Michael Bonfert, Sarah Theres Völkel, Johannes Schöning, Rainer Malaka and Yvonne Rogers
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=VyNSPYl-ElY&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=1
 
  - id: pp_1
    type: Provocation Paper
    title: "‘Assistant’ or ‘Master’: Envisioning the User Autonomy Implications of Virtual Assistants"
    authors: Sanju Ahuja and Jyoti Kumar
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=UB8V1nDwsVI&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=8
 
  - id: pp_2
    type: Provocation Paper
    title: "A Conversational User Interface for Maintenance Reports: A Wizard of Oz Study"
    authors: Samuel Kernan Freire, Evangelos Niforatos, Zoltan Rusak, Doris Aschenbrenner and Alessandro Bozzon
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=Zf6P0WympLY&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=10
 
 papers_2:
  - id: fp_4
    type: Full Paper
    title: Multimodal Conversational Fashion Recommendation with Positive and Negative Natural-Language Feedback
    authors: Yaxiong Wu, Craig Macdonald and Iadh Ounis
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=bus11cJkuSA&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=5
 
  - id: pp_3
    type: Provocation Paper
    title: Unifying Recommender Systems and Conversational User Interfaces
    authors: Alain D. Starke and Minha Lee
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=YPW7mSh_3v8&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=5
 
  - id: pp_4
    type: Provocation Paper
    title: Do we still need Human Assessors? Prompt based GPT-3 User Simulation in Conversational AI
    authors: Selina Meyer, David Elsweiler, Bernd Ludwig, Marcos Fernández-Pichel and David E. Losada
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=SdSp9DI1-nk&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=1
 
  - id: pp_5
    type: Provocation Paper
    title: Ethical Self-Disclosing Voice User Interfaces for Delivery of News
    authors: Shruti Rao, Valeria Resendez, Abdallah El Ali and Pablo Cesar
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=GgHKgrSfs5o&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=6
 
  - id: boaster
    type: Pitches
@@ -69,16 +96,25 @@ papers_3:
    type: Full Paper
    title: Capturing Teens' Voice in Designing Supportive Agents
    authors: Irene Lopatovska, Olivia Turpin, Jessika Davis, Ellen Connell, Chris Denney, Hilda Fournier, Archana Ravi, Ji Hee Yoon and Eesha Parasnis
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=qEzPW3HX0ms&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=2
 
  - id: pp_6
    type: Provocation Paper
    title: 'Bilingual by default: Voice Assistants and the role of code-switching in creating a bilingual user experience'
    authors: Helin Cihan, Yunhan Wu, Paola Peña, Justin Edwards and Benjamin Cowan
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=4Qolw4jyQ0E&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=2
 
  - id: pp_7
    type: Provocation Paper
    title: Embrace your incompetence! Designing appropriate CUI communication through an ecological approach
    authors: Sophie Becker, Phillip Doyle and Justin Edwards
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=M8lwFTKrI04&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=9
 
  - id: pp_8
    type: Provocation Paper
@@ -94,6 +130,9 @@ papers_3:
    type: Provocation Paper
    title: Voice Assistants Have a Plurilingualism Problem
    authors: Amanda Kann
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=w2wzSl6NCRk&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=4
 
 
 papers_4:
@@ -101,11 +140,17 @@ papers_4:
    type: Full Paper
    title: '"Voice-First Interfaces in a GUI-First Design World": Barriers and Opportunities to Supporting VUI Designers On-the-Job'
    authors: Christine Murad and Cosmin Munteanu
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=8ZM9jIefH5Q&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=4
 
  - id: fp_7
    type: Full Paper
    title: "Does Alexa Live Up to the Hype? Contrasting Expectations from Mass Media Narratives and Older Adults' Hands-on Experiences of Voice Interfaces"
    authors: Jaisie Sin, Dongqing Chen, Jalena G. Threatt, Anna Gorham and Cosmin Munteanu
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=VTDCiQEOHoM&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=9
 
  - id: fp_8
    type: Full Paper
@@ -116,11 +161,17 @@ papers_4:
    type: Provocation Paper
    title: 'Should Alexa be a Police Officer, a Doctor, or a Priest?'
    authors: James Simpson and Cassandra Crone
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=MjpffMP49xA&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=7
 
  - id: pp_12
    type: Provocation Paper
    title: 'Is Alexa like a computer? A search engine? A friend? A silly child? Yes.'
    authors: Smit Desai and Michael Twidale
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=dpoSqrQAg7k&list=PLCiDCQnNEbVvF6TEb-WULldj-i9D34ZAv&index=3
 
 
 papers_5:
@@ -128,11 +179,17 @@ papers_5:
    type: Full Paper
    title: Effects of Emotional Expressiveness on Voice Chatbot Interactions
    authors: Qingxiaoyang Zhu, Austin Chau, Michelle Cohn, Kai-Hui Liang, Hao-Chuan Wang, Georgia Zellou and Zhou Yu
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=5XCWICA-1Xk&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=10
 
  - id: fp_5
    type: Full Paper
    title: 'Comparing Command Construction in Native and Non-Native Speaker IPA Interaction through Conversation Analysis'
    authors: Yunhan Wu, Martin Porcheron, Philip Doyle, Justin Edwards, Daniel Rough, Orla Cooney, Anna Bleakley, Leigh Clark and Benjamin Cowan
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=A3F1H-SWL9A&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=3
 
  - id: fp_11
    type: Full Paper
@@ -143,6 +200,9 @@ papers_5:
    type: Full Paper
    title: 'Cross-Modal Repair: Gaze and Speech Interaction for List Advancement'
    authors: Razan Jaber and Donald McMillan
+   preview:
+     text: Watch a preview on YouTube
+     link: https://www.youtube.com/watch?v=hNDy85AbwXw&list=PLCiDCQnNEbVuHB0lKKa1VPIlfbvK7RwWV&index=7
 
  - id: pp_13
    type: Provocation Paper
@@ -154,56 +214,98 @@ posters_demos:
     type: Poster
     authors: Robert Bowman, Benjamin R. Cowan, Anja Thieme and Gavin Doherty
     title: 'Beyond Subservience: Using Joint Commitment to Enable Proactive CUIs for Mood Logging'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=0AZ83qaKyxk&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=2
   - id: poster_2
     type: Poster
     authors: Mathyas Giudici, Pietro Crovari and Franca Garzotto
     title: 'CANDY: towards a framework to design Conversational AgeNts for Domestic sustainabilitY'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=MPqN5yZsgrk&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=9
   - id: poster_3
     type: Poster
     authors: Sara Parnell, Stefanie Klein and Franziska Gaiser
     title: 'Do we know and do we care? Algorithms and Attitude towards Conversational User Interfaces: Comparing Chatbots and Voice Assistants'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=7oRswoWY_R0&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=3
   - id: poster_4
     type: Poster
     authors: Mateusz Dubiel, Sylvain Daronnat and Luis A. Leiva
     title: 'Conversational Agents Trust Calibration: A User-Centred Perspective to Design'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=mUn4DW1hh70&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=12
   - id: poster_5
     type: Poster
     authors: Anna-Maria Meck, Christoph Draxler and Thurid Vogt
     title: 'A Question of Fidelity: Comparing Different User Testing Methods for Evaluating In-Car Prompts'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=9e8d8QoP7PY&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=1
   - id: poster_6
     type: Poster
     authors: Mary Bispham, Jose Such, Guillermo Suarez-Tangil, Xavier Ferrer-Aran, Suliman Sattar and Clara Zard
     title: Leakage of Sensitive Information to Third-Party Voice Applications
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=lu_QC3TOR9M&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=11
   - id: poster_7
     type: Poster
     authors: Zuzanna Janeczko and Mary Ellen Foster
     title: A Study on Human Interactions With Robots Based on Their Appearance and Behaviour
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=jttAo15XNxU&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=4
   - id: poster_8
     type: Poster
     authors: Juan Carlos Farah, Basile Spaenlehauer, Sandy Ingram and Denis Gillet
     title: A Blueprint for Integrating Task-Oriented Conversational Agents in Education
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=iTYZTTWFqWE&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=8
   - id: poster_9
     type: Poster
     authors: Nicolas Wagner, Matthias Kraus, Tibor Tonn and Wolfgang Minker
     title: Comparing Moderation Strategies in Group Chats with Multi-User Chatbots
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=DUAFgTLSkzc&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=7
   - id: poster_10
     type: Poster
     authors: Li Chen, Zhirun Zhang, Xinzhi Zhang and Lehong Zhao
     title: A Pilot Study for Understanding Users’ Attitudes Towards a Conversational Agent for News Recommendation
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=QYv3wVhYNz8&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=5
   - id: poster_11
     type: Poster
     authors: Marilena Wilhelm, Tabea Otten, Kinga Schumacher and Eva Schwaetzer
     title: 'Keep on Smiling: An Investigation of the Influence of the Use of Emoticons by Chatbots on User Satisfaction'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=S2SP_qTqnKI&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=10
   - id: poster_12
     type: Poster
     authors: Roderick Tabalba, Abari Bhatacharya, Veronica Grosso, Nurit Kirshenbaum, Andy Johnson, Barbara Di Eugenio, Moira Zellner and Jason Leigh
     title: 'Articulate+ : An Always-Listening Natural Language Interface for Creating Data Visualizations'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=NcDDVuJnbEg&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=6
 
   - id: demo_1
     type: Demo
     authors: Michelle Xiao-Lin Foo, Luca Della Libera and Ilhan Aslan
     title: 'Papr Readr Bot: A Conversational Agent to Read Research Papers'
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=-3W7m59LOIs&list=PLCiDCQnNEbVs37LOlRR2py3WxZwX2gTK6&index=1
   - id: demo_2
     type: Demo
     authors: Heloisa Candello, Marcelo Grave, Emilio Brazil, Marina Ito, Adinan Alves de Brito Filho and Rogerio de Paula
     title: How can AI leverage alternative criteria and suggest a better way to measure credit worthiness and economic growth?
+    preview:
+      text: Watch a preview on YouTube
+      link: https://www.youtube.com/watch?v=eXCEcv-0ZCQ&list=PLCiDCQnNEbVs37LOlRR2py3WxZwX2gTK6&index=2
