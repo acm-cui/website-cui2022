@@ -53,8 +53,8 @@ provocation_papers:
     title: Ethical Self-Disclosing Voice User Interfaces for Delivery of News
   - authors: Smit Desai and Michael Twidale
     title: Is Alexa like a computer? A search engine? A friend? A silly child? Yes.
- - title: 'COMEX: A Multi-task Benchmark for Knowledge-grounded COnversational Media EXploration'
-   authors: Zay Yar Tun, Alessandro Speggiorin, Jeffrey Dalton and Megan Stamper
+  - title: 'COMEX: A Multi-task Benchmark for Knowledge-grounded COnversational Media EXploration'
+    authors: Zay Yar Tun, Alessandro Speggiorin, Jeffrey Dalton and Megan Stamper
 
 posters:
   - authors: Robert Bowman, Benjamin R. Cowan, Anja Thieme and Gavin Doherty
