@@ -272,6 +272,7 @@ posters_demos:
     preview:
       text: Watch a preview on YouTube
       link: https://www.youtube.com/watch?v=iTYZTTWFqWE&list=PLCiDCQnNEbVsbbBbdrH9vmeYb2Qg_1RI0&index=8
+    award: Honourable Mention
   - id: poster_9
     type: Poster
     authors: Nicolas Wagner, Matthias Kraus, Tibor Tonn and Wolfgang Minker
