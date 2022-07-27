@@ -200,7 +200,8 @@ papers_5:
    type: Full Paper
    title: Effects of Wording and Gendered Voices on Acceptability of Voice Assistants in Future Autonomous Vehicles
    authors: Iris Jestin, Joel Fischer, Maria Jose Galvez Trigo, David Large and Gary Burnett
-
+   award: Best Paper Award
+    
  - id: fp_12
    type: Full Paper
    title: 'Cross-Modal Repair: Gaze and Speech Interaction for List Advancement'
