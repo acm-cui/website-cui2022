@@ -168,7 +168,7 @@
   end_time: 2022-07-28T15:00:00.000Z
 
 - id: papers_5
-  type: Posters
+  type: Papers
   title: Paper Session 5
   start_time: 2022-07-28T15:00:00.000Z
   end_time: 2022-07-28T16:30:00.000Z
