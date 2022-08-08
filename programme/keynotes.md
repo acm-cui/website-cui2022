@@ -22,6 +22,8 @@ CUI {{ site.conference.year }} features two keynotes from internationally-renown
 
 ## Style matters: Insights for conversational user interfaces from sociolinguistic theory  Socially-Aware Conversational Interfaces: Challenges and Perspectives
 
+**[Download the slides from Jane's talk &raquo;]({{ '/assets/pdf/keynote-jane-stuart-smith.pdf' | relative_url }} "Download the slides from Jane's talk")**
+
 On Wednesday, the conference will open with a keynote by Professor **Jane Stuart-Smith**, Professor of Phonetics and Sociolinguistics, at the University of Glasgow.
 
 > When humans respond to digital agents, it seems likely that they extend and adapt behaviours evolved for interpersonal interaction, to interaction with non-human agents (Reeves & Nass, 1996; Staum Casasanto, L Jasmin & Casasanto, 2010). Sociolinguistics is the branch of linguistics which considers linguistic variability in social context, and provides a wealth of information about the range of socially-driven behaviours and motivations for how humans respond to each other (Tagliamonte, 2012; Schilling, 2013). This talk will consider two aspects of sociolinguistic research which may be useful in helping to inform the development of effective conversational user interfaces: 1) evidence and theories accounting for intraspeaker variation, or ‘speech style’ (Coupland, 2007); and 2) the role of socially-based attitudes to linguistic variation, and in particular, accent bias, on cognitive and linguistic processing (Staum Casasanto, 2009).  
