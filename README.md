@@ -1,26 +1,23 @@
-<h1 style="text-align: center;">Conversational User Interfaces<br>2021 Conference Website</h1>
+# ACM Conversational User Interfaces
 
-This is the 2021 conference website. The website is built uising [Jekyll](https://jekyllrb.com "Jekyll website"), a static website building software written in Ruby. This repository contains the source the website.
+This is a template for building a website part of the ACM CUI conference/workshop series. The website will be hosted at www.conversationaluserinterfaces.org in a custom directory (e.g., _www.conversationaluserinterfaces.org/mywebsite_).
 
-Every time a new push/pull request is merged into the main branch of this repository, the website is rebuilt from scratch. The built website is copied them into the [main repository for the website](https://github.com/cui-series/conversationaluserinterfaces.org "Main CUI repository"), that the domain conversationaluserinterfaces.org points to. You can also edit this website online through GitHub and the changes will be made to the live website.
+This template repository is for websites built with the [Jekyll](http://jekyllrb.com/ "Go to the Jekyll Static Website Generator website") Static Website Generator.
 
-Please do not push to the main repository for the website as changes may be automatically overridden when the website is next rebuilt.
+## Requirements/instructions
 
-## Building the website manually
+1. Put your Jekyll website in the root of this repository in the `main` branch
 
-If you have Jekyll installed locally, when in the directory, install the various ruby gems with the command `bundle install`. Once you have done this, you'll be able to run a local version of the website with the command `bundle exec jekyll serve` (the website will be accessible at http://localhost:4000/).
+2. Your `_config.yml` can be configured for local host testing, but you should have a `_config_production.yml` file for settings you want to deploy at deployment
 
-If you want to build the website as it will be built for the main repository (i.e. production), use the command `JEKYLL_ENV=production jekyll b --config _config.yml,_config_production.yml`.
+    * A sample file has been provided
+    * It is important that you insert a correct `baseurl` parameter
+    * Every time you commit, everything in this directory will be replaced!
+    
+3. Change the `name` parameter of the GitHub Action workflow in `.github/workflows/jekyll.yml` to something appropriate
 
-The built site is located in the `_site` directory.
+4. Change the `target-directory` parameter in `.github/workflows/jekyll.yml` to match the one you set in step 2 (minus the forward slash)
 
-## How building automatically happens
-When you push to the main branch of this repository, a webhook calls a script running on a Raspberry Pi in Martin Porcheron's home. On a push the following happens:
-1. This repository is pulled from GitHub
-2. The production version of the website is built using Jekyll (see above)
-3. The [main repository for the website](https://github.com/cui-series/conversationaluserinterfaces.org "Main CUI repository") is pulled
-4. The source generated from the build in step 2 is copied into the right directory in the local copy of the main repository
-5. These changes are committed, and the repository is pushed to GitHub
-6. GitHub run a number of automatic checks, and then the changes will appear on conversationaluserinterfaces.org
+5. Ask the CUI Technical Chair to grant your repository permissions to push to the `conversationaluserinterfaces.org` repository
 
-This process can take a few minutes. If it doesn't seem to work, message Martin Porcheron as there may be a build error (the system fails quietly for now).
+6. Ensure Actions are enabled in this repository in the GitHub repository settings
