@@ -33,10 +33,11 @@ jobs:
         run: bundle exec jekyll build  --trace --config "_config.yml,_config_production.yml"
         env:
           JEKYLL_ENV: production
-      - name: Push to conversationaluserinterfaces.org repository
-        uses: cpina/github-action-push-to-another-repository@main
+      - name: Push to website repository
+        uses: acm-cui/github-action-push-to-website@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          GPG_SIGN_KEY: ${{ secrets.GPG_SIGN_KEY }}
         with:
           source-directory: '_site'
           destination-github-username: 'acm-cui'
