@@ -1,6 +1,6 @@
 # ACM Conversational User Interfaces
 
-This is a template for building a website part of the ACM CUI conference/workshop series. The website will be hosted at www.conversationaluserinterfaces.org in a custom directory (e.g., _www.conversationaluserinterfaces.org/mywebsite_).
+This is a template for building a website part of the ACM CUI conference/workshop series. The website will be hosted at cui.acm.org in a custom directory (e.g., _cui.acm.org/mywebsite_).
 
 This template repository is for websites built with the [Jekyll](http://jekyllrb.com/ "Go to the Jekyll Static Website Generator website") Static Website Generator.
 
