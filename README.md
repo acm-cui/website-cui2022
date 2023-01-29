@@ -16,4 +16,4 @@ This template repository is for websites built with the [Jekyll](http://jekyllrb
     
 3. Change the `name` parameter of the GitHub Action workflow in `.github/workflows/jekyll.yml` to something appropriate
 
-5. Ask the CUI Technical Chair to enable your Action to push to cui.acm.org
+4. Ask the CUI Technical Chair to enable your Action to push to cui.acm.org
