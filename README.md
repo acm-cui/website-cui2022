@@ -16,8 +16,4 @@ This template repository is for websites built with the [Jekyll](http://jekyllrb
     
 3. Change the `name` parameter of the GitHub Action workflow in `.github/workflows/jekyll.yml` to something appropriate
 
-4. Change the `target-directory` parameter in `.github/workflows/jekyll.yml` to match the one you set in step 2 (minus the forward slash)
-
-5. Ask the CUI Technical Chair to grant your repository permissions to push to the `conversationaluserinterfaces.org` repository
-
-6. Ensure Actions are enabled in this repository in the GitHub repository settings
+5. Ask the CUI Technical Chair to enable your Action to push to cui.acm.org
