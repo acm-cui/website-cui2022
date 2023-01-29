@@ -1,11 +1,11 @@
-name: Publish CUI 2022 website ###### <<<<<<<<<<<<<<<<<< CHANGE TO APPROPRIATE NAME
+name: 🚀 Publish CUI 2022 website
 
 on:
   # Runs on pushes and merged pull requests targeting the default branch
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,34 +15,27 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Build job
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: ⬇️ Checkout
         uses: actions/checkout@v3
-      - name: Setup Ruby
+      - name: 💎 Setup Ruby
         uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa # v1.115.3
         with:
           ruby-version: '2.7' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      - name: Build with Jekyll
+      - name: 👷 Build with Jekyll
         # Outputs to the './_site' directory by default
         # "${{ steps.pages.outputs.base_path }}"
         run: bundle exec jekyll build  --trace --config "_config.yml,_config_production.yml"
         env:
           JEKYLL_ENV: production
-      - name: Push to website repository
-        uses: acm-cui/github-action-push-to-website@main
-        env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-          GPG_SIGN_KEY: ${{ secrets.GPG_SIGN_KEY }}
+      - name: 🌎 Upload to cui.acm.org
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
-          source-directory: '_site'
-          destination-github-username: 'acm-cui'
-          destination-repository-name: 'website'
-          user-email: 'cuitechchair@gmail.com'
-          user-name: 'cuibot'
-          target-branch: 'live' # This will change in the future to 'main' or equivalent
-          target-directory: '2022' ###### <<<<<<<<<<<<<<<<<< ENSURE YOU CHANGE THIS!!!
+          host: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: ./_site
